@@ -15,7 +15,7 @@ const Navbar = () => {
                             <span className="navbar-toggler-icon"></span>
                             <span className="navbar-toggler-icon"></span>
                         </button>
-                        <div className="collapse navbar-collapse justify-content-end" style={{ minWidth: '180px' }} id="navbarSupportedContent">
+                        <div className="collapse navbar-collapse justify-content-end" style={{ minWidth: '180px', position: 'relative', zIndex: "1000" }} id="navbarSupportedContent">
                             <ul className="navbar-nav ps-0" style={{ listStyle: 'none' }}>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/">
@@ -26,7 +26,7 @@ const Navbar = () => {
                                     <NavLink className="nav-link" to="/about">About</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/services">Services</NavLink>
+                                    <NavLink className="nav-link" to="/projects">Projects</NavLink>
                                 </li>
                                 {/* <li className="nav-item dropdown">
                                     <NavLink className="nav-link dropdown-toggle" to="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
