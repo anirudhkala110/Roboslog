@@ -70,7 +70,7 @@ const Contact = () => {
                                         </figure>
                                         <div class="contact_info_box_content_wrapper">
                                             <h5>Location:</h5>
-                                            <p class="mb-0">Metro Station, Near, F-76, 2nd floor, Saket, New Delhi, Delhi 110030</p>
+                                            <p class="mb-0">75/9, kishangarh, Aruna Asaf Ali Marg, Vasant Kunj, New Delhi, Delhi 110070</p>
                                         </div>
                                     </div>
                                 </div>
@@ -81,7 +81,7 @@ const Contact = () => {
                                         </figure>
                                         <div class="contact_info_box_content_wrapper">
                                             <h5>Email Us:</h5>
-                                            <p class="mb-0"><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsCZFQPHXCckjMhFzDBnRjqZchGtLrMPXTVFRSJpVcxfZPnJBHLFpvfnVgPLvTCjSCFvkncB" class="text-decoration-none">aihomeslog@gmail.com</a></p>
+                                            <p class="mb-0"><a href="https://mail.google.com/mail/u/0/#inbox?compose=DmwnWsCZFQPHXCckjMhFzDBnRjqZchGtLrMPXTVFRSJpVcxfZPnJBHLFpvfnVgPLvTCjSCFvkncB" class="text-decoration-none">roboslog@gmail.com</a></p>
                                             {/* <p class="mb-0"><a href="mailto:immersiveai@gmail.com" class="text-decoration-none">immersiveai@gmail.com</a></p> */}
                                         </div>
                                     </div>

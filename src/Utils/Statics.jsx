@@ -15,7 +15,7 @@ const Statics = () => {
                         <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1">
                             <div className="statistics_box hover-effect">
                                 <div className="span_wrapper">
-                                    <span className="number counter">15</span>
+                                    <span className="number counter">18</span>
                                     <span className="plus">K+</span>
                                 </div>
                                 <p className="text-size-16 text-white pp">Project Completed</p>
@@ -25,7 +25,7 @@ const Statics = () => {
                         <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1">
                             <div className="statistics_box hover-effect">
                                 <div className="span_wrapper">
-                                    <span className="number counter">5</span>
+                                    <span className="number counter">10</span>
                                     <span className="plus">K+</span>
                                 </div>
                                 <p className="text-size-16 text-white pp">Happy Clients</p>

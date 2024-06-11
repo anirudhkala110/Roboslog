@@ -31,7 +31,7 @@ const Homepage = () => {
                                 <div className="banner-section-content">
                                     <h1 data-aos="fade-up">RoboSlog</h1>
                                     <div className="banner_content_wrapper position-relative">
-                                        <p className="text-white mb-0" data-aos="fade-right">Bring Force of Artificial Intelligence To Your Business Development</p>
+                                        <p className="text-white mb-0" data-aos="fade-right">“Your Idea, Our Innovation.”</p>
                                         <figure className="mb-0 position-absolute" style={{ marginLeft: '-50px' }}>
                                             <img src="./assets/images/banner_white_line.png" alt="" className="img-fluid" /></figure>
                                     </div>
@@ -68,7 +68,7 @@ const Homepage = () => {
             {/* Statistic Section */}
             <Statics />
             {/* <!--SERVICES SECTION-- > */}
-            <section className="services_section position-relative">
+            {/* <section className="services_section position-relative">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-5 col-md-5 col-sm-12 col-12">
@@ -119,7 +119,7 @@ const Homepage = () => {
                     <figure className="services_right_shape mb-0 position-absolute top_bottom_shape">
                         <img src="./assets/images/services_right_shape.png" alt="" className="img-fluid" /></figure>
                 </div>
-            </section>
+            </section> */}
             {/* <!--ABOUT US SECTION-- > */}
             <section className="aboutus_section position-relative">
                 <div className="container">
@@ -175,7 +175,7 @@ const Homepage = () => {
                 </div>
             </section>
             {/* <!--WHO WE ARE SECTION-- > */}
-            <section className="who_we_are_section position-relative">
+            {/* <section className="who_we_are_section position-relative">
                 <div className="container-fluid">
                     <div className="row">
                         <div className="col-xl-4 col-lg-12 col-md-12 col-sm-12 col-12">
@@ -239,7 +239,7 @@ const Homepage = () => {
                     <figure className="who_we_are_right_shape mb-0 position-absolute top_bottom_shape">
                         <img src="./assets/images/who_we_are_right_shape.png" alt="" className="img-fluid" /></figure>
                 </div>
-            </section>
+            </section> */}
             {/* <!--PORTFOLIO SECTION-- > */}
             <section className="portfolio_section">
                 <div className="container">
@@ -404,14 +404,14 @@ const Homepage = () => {
                 </div>
             </section> */}
             {/* <!--COMBO SECTION-- > */}
-            <section className="combo_section">
-                {/* <!-- FAQ'S SECTION --> */}
                 <FAQ />
+            {/* <section className="combo_section"> */}
+                {/* <!-- FAQ'S SECTION --> */}
                 {/* <!-- CLIENT LOGO'S SECTION --> */}
-                <ClientsLogo />
+                {/* <ClientsLogo /> */}
                 {/* <!-- GET STARTED SECTION --> */}
-                <GetStarted />
-            </section>
+                {/* <GetStarted /> */}
+            {/* </section> */}
             {/* <!--FOOTER SECTION-- > */}
         </>
     )

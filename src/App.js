@@ -7,6 +7,7 @@ import Navbar from './Utils/Navbar';
 import Footer from './Utils/Footer';
 import PNF from './Utils/PNF';
 import Contact from './Components/Contact';
+import FAQS from './Components/FAQS';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/' element={<Homepage />} />
           <Route exact path='/about' element={<About />} />
           <Route exact path='/contact' element={<Contact />} />
+          <Route exact path='/faqs' element={<FAQS />} />
           <Route path='*' element={<PNF />} />
         </Routes>
         <Footer />

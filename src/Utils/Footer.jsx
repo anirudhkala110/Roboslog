@@ -3,24 +3,24 @@ import Logo from './logo.png'
 const Footer = () => {
     return (
         <div>
-            <section class="footer-section" id="footer_section">
+            <section class="footer-section mt-5" id="footer_section">
                 <div class="container">
-                    <div class="middle-portion">
+                    <div class="middle-portion pt-5">
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="about_col">
                                     <a href="/">
                                         <figure>
-                                            <img src={Logo} alt="RoboSlog"  class="img-fluid" style={{maxWidth:'150px',filter:'invert(1)'}} />
+                                            <img src={Logo} alt="RoboSlog" class="img-fluid" style={{ maxWidth: '150px', filter: 'invert(1)' }} />
                                         </figure>
                                     </a>
                                     <ul class="list-unstyled mb-0">
                                         <li>
                                             <p class="text-size-16">Qorem ipsum dolor sit amet, consectetur adipiscing elit aut elit tellus luctus nec ulla corper mattis aulvinar daibus leo.</p>
                                         </li>
-                                        <li class="icons hover-effect"><a href="#"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
-                                        <li class="icons hover-effect"><a href="#"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a></li>
-                                        <li class="icons hover-effect"><a href="#"><i class="fa-brands fa-linkedin-in mr-0" aria-hidden="true"></i></a></li>
+                                        <li class="icons hover-effect"><a href="https://www.facebook.com/roboslog"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
+                                        <li class="icons hover-effect"><a href="https://www.instagram.com/roboslog/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
+                                        <li class="icons hover-effect"><a href="https://www.linkedin.com/company/roboslog/mycompany/"><i class="fa-brands fa-linkedin-in mr-0" aria-hidden="true"></i></a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -36,10 +36,10 @@ const Footer = () => {
                                             <span></span>
                                             <a href="/about">About</a>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <span></span>
                                             <a href="/services">Services</a>
-                                        </li>
+                                        </li> */}
                                         <li>
                                             <span></span>
                                             <a href="/projects">Projects</a>
@@ -57,15 +57,15 @@ const Footer = () => {
                                     <ul class="list-unstyled mb-0">
                                         <li>
                                             <i class="fa-solid fa-phone"></i>
-                                            <a href="tel:+91 80051 83363" class="text-decoration-none">+91 80051 83363</a>
+                                            <a href="tel:+91 80051 83363" class="text-decoration-none">+91 6306854780</a>
                                         </li>
                                         <li class="contact_mail">
                                             <i class="fa-sharp fa-solid fa-envelope"></i>
-                                            <a href="mailto:Info@immersiveai.com" class="text-decoration-none">aihomeslog@gmail.com</a>
+                                            <a href="mailto:Info@immersiveai.com" class="text-decoration-none">roboslog@gmail.com</a>
                                         </li>
                                         <li class="mb-0">
                                             <i class="fa-solid fa-location-dot location"></i>
-                                            <span class="text-size-16">21 King Street Melbourne, 3000, Australia</span>
+                                            <span class="text-size-16">75/9, kishangarh, Aruna Asaf Ali Marg, Vasant Kunj, New Delhi, Delhi 110070</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -80,7 +80,7 @@ const Footer = () => {
                                     <ul class="list-unstyled mb-0">
                                         <li>
                                             <input type="checkbox" id="check" name="check" />
-                                            <span>Quis autem vel eum iure reprehenderit rui in ea voluptate esse.</span>
+                                            <span>Remember me. Details will not be shared with anayone else.</span>
                                         </li>
                                     </ul>
                                 </div>
@@ -91,7 +91,7 @@ const Footer = () => {
                         <figure class="mb-0"><img src="./assets/images/footer_right_shape.png" alt="" class="img-fluid" /></figure>
                     </div>
                     <div class="footer_background_shape left_right_shape">
-                        <figure class="mb-0"><img src="./assets/images/footer_background_shape.jpg" alt="" /></figure>
+                        <figure class="mb-0"><img src="./assets/images/footer_background_shape.jpg" alt=""/></figure>
                     </div>
                 </div>
                 <div class="bottom-portion">

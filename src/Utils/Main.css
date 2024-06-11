@@ -9,3 +9,8 @@
 #navbar a:hover {
     color: rgb(96, 237, 110) !important
 }
+/* 
+#footer_section{
+    background-image: url(../../public/assets/images/footer_background_shape.jpg);
+    animation: movers 1s infinite alternate;
+} */
