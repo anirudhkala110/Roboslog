@@ -65,8 +65,8 @@ const Homepage = () => {
                         <figure className="banner_left_image mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/banner_left_image.jpg" alt="" className="img-fluid" style={{ maxWidth: '250px' }} /></figure>
                         <a href="#footer_section" className="top-btn">
-                            <figure className=" position-absolute">
-                                <img src="./assets/images/scroll_down_image.png" alt="" className="img-fluid mt-5" /></figure>
+                            <figure className=" position-absolute" style={{marginTop:'-75px'}}>
+                                <img src="./assets/images/scroll_down_image.png" alt="" className="img-fluid "  /></figure>
                         </a>
                     </div>
                 </section>
