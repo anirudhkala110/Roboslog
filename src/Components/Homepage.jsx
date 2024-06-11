@@ -36,11 +36,11 @@ const Homepage = () => {
                                     <h2 data-aos="fade-up text-white" style={{ fontSize: '60px' }}><b className='text-white'>RoboSlog</b></h2>
                                     <div className="banner_content_wrapper position-relative">
                                         <p className="text-white mb-0" data-aos="fade-right">
-                                            <b style={{ fontSize: '28px' }}>“Your Idea, Our Innovation.”</b>
+                                            <b style={{ fontSize: '28px', marginLeft: '-65px' }}>“Your Idea, Our Innovation.”</b>
                                             <br />
-                                            <sm style={{fontSize:'14px'}}>
+                                            <div style={{ fontSize: '14px', marginLeft: '-65px' }}>
                                                 ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.
-                                            </sm>
+                                            </div>
                                         </p>
                                         <figure className="mb-0 position-absolute" style={{ marginLeft: '-50px' }}>
                                             <img src="./assets/images/banner_white_line.png" alt="" className="img-fluid" /></figure>
@@ -54,7 +54,7 @@ const Homepage = () => {
                             <div className="col-lg-3 col-md-3 col-sm-12 col-12">
                                 <div className="banner_image position-relative">
                                     <figure className="banner_main_image mb-0 left_right_shape">
-                                        <img src={mainImg} alt="" style={{ maxWidth: '100%', maxHeight: '350px', marginBottom: '0px', marginLeft: '50px' }} /></figure>
+                                        <img src={mainImg} alt="" style={{ maxWidth: '100%', height: '-webkit-fill-available', maxHeight: '500px', marginBottom: '0px', marginLeft: '50px' }} /></figure>
                                     <figure className="banner_image_top_shape mb-0 position-absolute">
                                         <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid" style={{ maxWidth: '' }} /></figure>
                                     <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">
@@ -261,7 +261,7 @@ const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row text-white" data-aos="fade-up">
+                    <div className="row text-white" data-aos="fade-up" style={{ zIndex: '450' }}>
                         <div className="owl-carousel owl-theme">
                             <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
@@ -269,7 +269,7 @@ const Homepage = () => {
                                         <span>Dancing Robo</span>
                                     </div>
                                     <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', background: '#fff8f821' }}>
-                                        <img src={project1} alt="" className="img-fluid" />
+                                        <img src={project1} alt="" className="img-fluid" style={{ height: '400px' }} />
                                     </figure>
                                     <div className="portfolio_box">
                                         <p className='text-white'>Small Robo with audio and dancing mode.</p>
@@ -281,7 +281,7 @@ const Homepage = () => {
                             </div>
                             <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0"><img src={clock} alt="" className="img-fluid" style={{ maxHeight: '400px' }} /></figure>
+                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={clock} alt="" className="img-fluid" style={{ height: '400px' }} /></figure>
                                     <div className="portfolio_box">
                                         <p>3D Clock with best sound effects and with 360<sup>o</sup> view.</p>
                                         <div className="btn_wrapper">
@@ -295,7 +295,7 @@ const Homepage = () => {
                             </div>
                             <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0"><img src={autoDil3} style={{ maxHeight: '400px' }} alt="" className="img-fluid" /></figure>
+                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={autoDil3} style={{ height: '400px' }} alt="" className="img-fluid" /></figure>
                                     <div className="portfolio_box">
                                         <p>Automatic delivery with all safety majors.</p>
                                         <div className="btn_wrapper">

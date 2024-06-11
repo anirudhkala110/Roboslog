@@ -15,9 +15,9 @@ const Footer = () => {
                                         </figure>
                                     </a>
                                     <ul class="list-unstyled mb-0">
-                                        <li>
+                                        {/* <li>
                                             <p class="text-size-16">ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.</p>
-                                        </li>
+                                        </li> */}
                                         <li class="icons hover-effect"><a href="https://www.facebook.com/roboslog"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
                                         <li class="icons hover-effect"><a href="https://www.instagram.com/roboslog/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
                                         <li class="icons hover-effect"><a href="https://www.linkedin.com/company/roboslog/mycompany/"><i class="fa-brands fa-linkedin-in mr-0" aria-hidden="true"></i></a></li>

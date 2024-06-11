@@ -8,10 +8,11 @@ import Footer from './Utils/Footer';
 import PNF from './Utils/PNF';
 import Contact from './Components/Contact';
 import FAQS from './Components/FAQS';
+import Projects from './Components/Projects';
 
 function App() {
   return (
-    <div className="bg-black">
+    <div className="bg-black" style={{ background: 'transparent' }}>
       <Router>
         <Navbar className="" />
         <Routes>
@@ -19,7 +20,7 @@ function App() {
           <Route exact path='/about' element={<About />} />
           <Route exact path='/contact' element={<Contact />} />
           <Route exact path='/faqs' element={<FAQS />} />
-          <Route exact path='/projects' element={<FAQS />} />
+          <Route exact path='/projects' element={<Projects />} />
           <Route path='*' element={<PNF />} />
         </Routes>
         <Footer />
