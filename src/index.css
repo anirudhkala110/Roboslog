@@ -488,7 +488,7 @@
   }
 
   .middle-portion {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
   }
 
   .middle-portion .about_col figure {
@@ -4915,7 +4915,7 @@ header {
 }
 
 .middle-portion {
-  margin-bottom: 82px;
+  /* margin-bottom: 82px; */
   position: relative;
   z-index: 2;
 }

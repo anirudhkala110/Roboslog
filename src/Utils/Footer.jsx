@@ -16,7 +16,7 @@ const Footer = () => {
                                     </a>
                                     <ul class="list-unstyled mb-0">
                                         <li>
-                                            <p class="text-size-16">Qorem ipsum dolor sit amet, consectetur adipiscing elit aut elit tellus luctus nec ulla corper mattis aulvinar daibus leo.</p>
+                                            <p class="text-size-16">ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.</p>
                                         </li>
                                         <li class="icons hover-effect"><a href="https://www.facebook.com/roboslog"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a></li>
                                         <li class="icons hover-effect"><a href="https://www.instagram.com/roboslog/"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a></li>
@@ -95,7 +95,7 @@ const Footer = () => {
                         <figure class="mb-0"><img src="./assets/images/footer_right_shape.png" alt="" class="img-fluid" /></figure>
                     </div>
                     <div class="footer_background_shape left_right_shape">
-                        <figure class="mb-0"><img src="./assets/images/footer_background_shape.jpg" alt=""/></figure>
+                        <figure class="mb-0"><img src="./assets/images/footer_background_shape.jpg" alt="" /></figure>
                     </div>
                 </div>
                 <div class="bottom-portion">

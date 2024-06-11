@@ -1184,23 +1184,24 @@ header{
     /* margin-top: -300px; */
 }
 .middle-portion {
-    margin-bottom: 82px;
+    /* margin-bottom: 82px; */
     position: relative;
     z-index: 2;
 }
 .middle-portion h4{
     color: var(--e-global-color-white);
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
 }
-.middle-portion .about_col h4{
-    margin-bottom: 18px;
+.middle-portion 
+.about_col h4{
+    /* margin-bottom: 18px; */
 }
 .middle-portion .about_col figure {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 .middle-portion .about_col p {
-    line-height: 30px;
-    margin-bottom: 25px;
+    /* line-height: 30px; */
+    /* margin-bottom: 25px; */
     color: var(--e-global-color-text);
 }
 .middle-portion ul .icons{

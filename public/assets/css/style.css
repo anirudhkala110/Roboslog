@@ -1423,7 +1423,7 @@ header {
 }
 
 .middle-portion {
-    margin-bottom: 82px;
+    /* margin-bottom: 82px; */
     position: relative;
     z-index: 2;
 }

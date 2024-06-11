@@ -7,10 +7,12 @@ const Statics = () => {
                 <div className="container">
                     <div className="row" data-aos="fade-up">
                         <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                            <center>
+                                <h2 className='fw-semibold' style={{ fontSize: '3rem' }}>RoboSlog</h2>
+                            </center>
                             <div className="statistics_content">
-                                <h3 className="mb-0">Empowering The Future With new technologies.</h3>
+                                <h3 className="mb-0 fw-bold">Empowering The Future With new technologies.</h3>
                             </div>
-                            <h2 className='fw-semibold' style={{ fontSize: '3rem' }}>RoboSlog</h2>
                         </div>
                         <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1">
                             <div className="statistics_box hover-effect">
@@ -32,7 +34,7 @@ const Statics = () => {
                                 <p className="text-size-16 mb-0 text">Don't know the times when you start or work.</p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1" style={{zIndex:'500'}}>
+                        <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1" style={{ zIndex: '500' }}>
                             <div className="statistics_box hover-effect" >
                                 <div className="span_wrapper">
                                     <span className="number counter">6</span>

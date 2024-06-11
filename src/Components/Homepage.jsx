@@ -4,6 +4,10 @@ import Statics from '../Utils/Statics'
 import FAQ from './FAQ'
 import ClientsLogo from './ClientsLogo'
 import GetStarted from './GetStarted'
+import mainImg from '../Images/mainHome.jpg'
+import project1 from '../Images/smallRobo.png'
+import autoDil3 from '../Images/Autodil3.png'
+import clock from '../Images/clock.png'
 
 const Homepage = () => {
     useEffect(() => {
@@ -29,25 +33,31 @@ const Homepage = () => {
                             </div>
                             <div className="col-lg-8 col-md-8 col-sm-12 col-12">
                                 <div className="banner-section-content">
-                                    <h1 data-aos="fade-up">RoboSlog</h1>
+                                    <h2 data-aos="fade-up text-white" style={{ fontSize: '60px' }}><b className='text-white'>RoboSlog</b></h2>
                                     <div className="banner_content_wrapper position-relative">
-                                        <p className="text-white mb-0" data-aos="fade-right">“Your Idea, Our Innovation.”</p>
+                                        <p className="text-white mb-0" data-aos="fade-right">
+                                            <b style={{ fontSize: '28px' }}>“Your Idea, Our Innovation.”</b>
+                                            <br />
+                                            <sm style={{fontSize:'14px'}}>
+                                                ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.
+                                            </sm>
+                                        </p>
                                         <figure className="mb-0 position-absolute" style={{ marginLeft: '-50px' }}>
                                             <img src="./assets/images/banner_white_line.png" alt="" className="img-fluid" /></figure>
                                     </div>
                                     <div className="btn_wrapper" data-aos="fade-up">
-                                        <a className="text-decoration-none default-btn btn-size-18 hover-effect readmore_btn" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
-                                        <a className="text-decoration-none default-btn-two btn-size-18 hover-effect" href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
+                                        <a className="text-decoration-none default-btn btn-size-18 m-3 hover-effect readmore_btn" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                        <a className="text-decoration-none default-btn-two btn-size-18 m-3 hover-effect" href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-3 col-md-3 col-sm-12 col-12">
                                 <div className="banner_image position-relative">
                                     <figure className="banner_main_image mb-0 left_right_shape">
-                                        <img src="./assets/images/banner_image.jpg" alt="" style={{ maxWidth: '500px' }} /></figure>
+                                        <img src={mainImg} alt="" style={{ maxWidth: '100%', maxHeight: '350px', marginBottom: '0px', marginLeft: '50px' }} /></figure>
                                     <figure className="banner_image_top_shape mb-0 position-absolute">
                                         <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid" style={{ maxWidth: '' }} /></figure>
-                                    <figure className="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
+                                    <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">
                                         <img src="./assets/images/banner_image_bottom_shape.png" alt="" className="img-fluid" /></figure>
                                 </div>
                             </div>
@@ -55,8 +65,8 @@ const Homepage = () => {
                         <figure className="banner_left_image mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/banner_left_image.jpg" alt="" className="img-fluid" style={{ maxWidth: '250px' }} /></figure>
                         <a href="#footer_section" className="top-btn">
-                            <figure className="mb-0 position-absolute">
-                                <img src="./assets/images/scroll_down_image.png" alt="" className="img-fluid" /></figure>
+                            <figure className=" position-absolute">
+                                <img src="./assets/images/scroll_down_image.png" alt="" className="img-fluid mt-5" /></figure>
                         </a>
                     </div>
                 </section>
@@ -253,52 +263,54 @@ const Homepage = () => {
                     </div>
                     <div className="row text-white" data-aos="fade-up">
                         <div className="owl-carousel owl-theme">
-                            <div className="item">
+                            <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0"><img src="./assets/images/portfolio_image1.jpg" alt="" className="img-fluid" /></figure>
+                                    <div className="portfolio_image_box">
+                                        <span>Dancing Robo</span>
+                                    </div>
+                                    <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', background: '#fff8f821' }}>
+                                        <img src={project1} alt="" className="img-fluid" />
+                                    </figure>
                                     <div className="portfolio_box">
-                                        <p className='text-white'>Officia deserunt mollitia animi nobis</p>
+                                        <p className='text-white'>Small Robo with audio and dancing mode.</p>
                                         <div className="btn_wrapper">
                                             <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
-                                    </div>
-                                    <div className="portfolio_image_box">
-                                        <span>BI execution</span>
                                     </div>
                                 </div>
                             </div>
-                            <div className="item">
+                            <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0"><img src="./assets/images/portfolio_image2.jpg" alt="" className="img-fluid" /></figure>
+                                    <figure className="mb-0"><img src={clock} alt="" className="img-fluid" style={{ maxHeight: '400px' }} /></figure>
                                     <div className="portfolio_box">
-                                        <p>Molestiae non recusana delectuse</p>
+                                        <p>3D Clock with best sound effects and with 360<sup>o</sup> view.</p>
                                         <div className="btn_wrapper">
                                             <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="portfolio_image_box">
-                                        <span>Robot Technology</span>
+                                        <span>3D Technology</span>
                                     </div>
                                 </div>
                             </div>
-                            <div className="item">
+                            <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0"><img src="./assets/images/portfolio_image3.jpg" alt="" className="img-fluid" /></figure>
+                                    <figure className="mb-0"><img src={autoDil3} style={{ maxHeight: '400px' }} alt="" className="img-fluid" /></figure>
                                     <div className="portfolio_box">
-                                        <p>Exercitation ullamco laboris nisa</p>
+                                        <p>Automatic delivery with all safety majors.</p>
                                         <div className="btn_wrapper">
                                             <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="portfolio_image_box">
-                                        <span>Machine Learning</span>
+                                        <span>Auto Delivery</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <figure className="portfolio_left_shape mb-0 position-absolute top_bottom_shape">
-                        <img src="./assets/images/portfolio_left_shape.png" alt="" className="img-fluid" />
+                        <img src="./assets/images/portfolio_left_shape.png" alt="" className="img-fluid" style={{ height: '250px' }} />
                     </figure>
                 </div>
             </section>
@@ -404,13 +416,13 @@ const Homepage = () => {
                 </div>
             </section> */}
             {/* <!--COMBO SECTION-- > */}
-                <FAQ />
+            <FAQ />
             {/* <section className="combo_section"> */}
-                {/* <!-- FAQ'S SECTION --> */}
-                {/* <!-- CLIENT LOGO'S SECTION --> */}
-                {/* <ClientsLogo /> */}
-                {/* <!-- GET STARTED SECTION --> */}
-                {/* <GetStarted /> */}
+            {/* <!-- FAQ'S SECTION --> */}
+            {/* <!-- CLIENT LOGO'S SECTION --> */}
+            {/* <ClientsLogo /> */}
+            {/* <!-- GET STARTED SECTION --> */}
+            {/* <GetStarted /> */}
             {/* </section> */}
             {/* <!--FOOTER SECTION-- > */}
         </>
