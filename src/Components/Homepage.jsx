@@ -23,7 +23,7 @@ const Homepage = () => {
     })
     return (
         <>
-            <div className="banner-section-outer position-relative">
+            <div className="banner-section-outer position-relative" style={{ minHeight: '100vh' }}>
 
                 {/* <!-- BANNER SECTION --> */}
                 <section className="banner-section position-relative" style={{ padding: "125px " }}>
