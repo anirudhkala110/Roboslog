@@ -26,7 +26,7 @@ const Homepage = () => {
             <div className="banner-section-outer position-relative">
 
                 {/* <!-- BANNER SECTION --> */}
-                <section className="banner-section position-relative" style={{padding:"125px "}}>
+                <section className="banner-section position-relative" style={{ padding: "125px " }}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-md-1 col-sm-1 col-1 d-md-block d-none">
@@ -42,7 +42,7 @@ const Homepage = () => {
                                         <p className="text-white mb-0" data-aos="fade-right">
                                             <b style={{ fontSize: '28px', marginLeft: '-65px' }}>“Your Idea, Our Innovation.”</b>
                                             <br />
-                                            <div style={{ fontSize: '14px', marginLeft: '-65px' }}>
+                                            <div style={{ fontSize: '14px', marginLeft: '-65px', textAlign: 'start' }}>
                                                 ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.
                                             </div>
                                         </p>
@@ -268,7 +268,7 @@ const Homepage = () => {
                     </div>
                     <div className="row text-white mb-4" data-aos="" style={{ zIndex: '450' }}>
                         {/* <div className={`${hover?"owl-carousel":"owl-carousel "} owl-theme `} onMouseEnter={e => setHover(true)} onMouseLeave={e => setHover(false)}> */}
-                        <div className={`owl-carousel owl-theme `} style={{cursor:'pointer'}} >
+                        <div className={`owl-carousel owl-theme `} style={{ cursor: 'pointer' }} >
                             <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
                                     <div className="portfolio_image_box">

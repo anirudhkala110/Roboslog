@@ -12,7 +12,7 @@ import Projects from './Components/Projects';
 
 function App() {
   return (
-    <div className="bg-black" style={{ background: 'transparent' ,minWidth:'600px'}}>
+    <div className="bg-black" style={{ background: 'transparent' ,minWidth:'420px'}}>
       <Router>
         <Navbar className="" />
         <Routes>
