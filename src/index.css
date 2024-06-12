@@ -1634,6 +1634,7 @@
   .footer-section {
     /* width: 240px; */
   }
+
   .footer_right_shape figure img {
     width: 240px;
   }
@@ -5182,7 +5183,12 @@ header {
   overflow: hidden;
 }
 
-.sub-banner-section-outer .banner-section {
+.sub-banner-section-outer {
+  padding: 0px 0 120px;
+  z-index: 1;
+}
+
+.banner-section {
   padding: 132px 0 120px;
   z-index: 1;
 }
@@ -5498,7 +5504,7 @@ header {
 /* Projects Page Portfolio Section Style */
 
 .projects_portfolio_section {
-  padding: 145px 0 110px;
+  padding: 1px 0 110px;
 }
 
 .projects_portfolio_section .portfolio_image {

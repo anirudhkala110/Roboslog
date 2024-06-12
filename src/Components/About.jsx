@@ -26,7 +26,7 @@ const About = () => {
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="banner-section-content">
                                     <h1 class="text-white" data-aos="fade-up">About Us</h1>
-                                    <p class="text-white" data-aos="fade-right">ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.</p>
+                                    <p class="text-white" data-aos="fade-right" style={{ textAlign: 'left' }}>ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.</p>
                                     <div class="btn_wrapper" data-aos="fade-up">
                                         <span> Home </span><i class="fa-solid fa-angles-right" aria-hidden="true"></i><span class="sub_span">About</span>
                                     </div>
@@ -34,8 +34,8 @@ const About = () => {
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="banner_image position-relative">
-                                    <figure class="banner_main_image mb-0 left_right_shape">
-                                        <img src={complete} className='px-3' alt="" style={{ maxWidth: '550px',background:'rgb(0 0 0 / 10%)',filter: "drop-shadow(2px 4px 6px rgb(114 172 225))" }} /></figure>
+                                    <figure class="banner_main_image mb-0 left_right_shape " style={{ marginTop: "50px" }}>
+                                        <img src={complete} className='px-3' alt="" style={{ minWidth: "250px", maxWidth: '550px', background: 'rgb(0 0 0 / 10%)', filter: "drop-shadow(2px 4px 6px rgb(114 172 225))" }} /></figure>
                                     <figure class="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
                                         <img src="./assets/images/sub_banner_image_bottom_shape.png" alt="" class="img-fluid" /></figure>
                                 </div>
@@ -113,29 +113,30 @@ const About = () => {
                                 <figure class="feature_main_image position-relative mb-0">
                                     <img src={childrenRobo} alt="" class="img-fluid" /></figure>
                                 <figure class="feature_second_image position-absolute mb-0">
-                                    <img src={Autodil3} alt="" class="img-fluid" style={{maxWidth:'300px',marginRight:'-30px !important'}}/></figure>
+                                    <img src={Autodil3} alt="" class="img-fluid" style={{ maxWidth: '300px', marginRight: '-30px !important' }} /></figure>
                             </div>
                         </div>
                         <div class="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                             <div class="feature_content" data-aos="fade-right">
                                 <h6>FEATURES</h6>
-                                <h2>Empowering People By Keeping Them Well</h2>
-                                <p>Consectetur adipiscing elit sed do eiusmod tempor inlabore aet dolore magna aliqua ruis.</p>
+                                <h2>Empowering People By Keeping Them Ahead</h2>
+                                <p>We provide such equipment which are according to your requirements. No one else will have such equipment except you.</p>
                                 <ul class="list-unstyled mb-0">
-                                    <li>
+                                    <li className='d-flex'>
                                         <figure class="mb-0">
-                                            <img src="./assets/images/certified_expert.png" alt="" class="img-fluid" /></figure>
+                                            <img src="./assets/images/certified_expert.png" alt="" class="img-fluid" />
+                                        </figure>
                                         <div class="feature_content_wrapper">
                                             <p class="first_p">Certified Experts</p>
-                                            <p class="text-size-16 mb-0">Dolor sit amet consectetur adipiscing elit, sed do eius.</p>
+                                            <p class="text-size-16 mb-0">We have well expert team which does the work professionally so that you never face any problem in future.</p>
                                         </div>
                                     </li>
-                                    <li class="second_li">
+                                    <li class="second_li d-flex">
                                         <figure class="mb-0">
                                             <img src="./assets/images/support.png" alt="" class="img-fluid" /></figure>
                                         <div class="feature_content_wrapper">
                                             <p class="first_p">24/7 Support</p>
-                                            <p class="text-size-16 mb-0">Sunt in culpa qui officia deserunt mollit anim esa amet.</p>
+                                            <p class="text-size-16 mb-0">We will provide you 24/7 online service and offline service in working hours.</p>
                                         </div>
                                     </li>
                                 </ul>

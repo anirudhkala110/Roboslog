@@ -19,7 +19,7 @@ const Projects = () => {
     return (
         <div>
             <div class="sub-banner-section-outer services-banner-section-outer position-relative">
-                <section class="banner-section position-relative">
+                <section class="banner-section position-relative" style={{ padding: '50px 0px' }}>
                     <div class="container">
                         <div class="row">
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
@@ -32,9 +32,9 @@ const Projects = () => {
                                 </div>
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
-                                <div class="banner_image position-relative">
+                                <div class="banner_image position-relative p-3">
                                     <figure class="banner_main_image mb-0 left_right_shape">
-                                        <img src={complete} className="rounded-4 px-3 my-4" alt="" style={{ width: '450px', background: '#ffffff14' }} />
+                                        <img src={complete} className="rounded-4 px-3 mt-5" alt="" style={{ minHeight: "220px", minWidth: "250px", maxHeight: '550px', background: '#ffffff14' }} />
                                     </figure>
                                     <figure class="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
                                         <img src="./assets/images/sub_banner_image_bottom_shape.png" alt="" class="img-fluid" style={{ marginLeft: "", marginTop: "" }} />
@@ -52,7 +52,7 @@ const Projects = () => {
                 </figure>
             </div>
             {/* <!-- PORTFOLIO SECTION-- > */}
-            <section className="portfolio_section projects_portfolio_section">
+            <section className="portfolio_section projects_portfolio_section" style={{ marginTop: "" }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -69,8 +69,8 @@ const Projects = () => {
                                     <div className="portfolio_image_box">
                                         <span>Dancing Robo</span>
                                     </div>
-                                    <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', background: '#fff8f821' }}>
-                                        <img src={project1} alt="" className="img-fluid" style={{ height: '400px' }} />
+                                    <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', width: '', background: '#fff8f821' }}>
+                                        <img src={project1} alt="" className="img-fluid" style={{ maxHeight: '400px', height: '100%' }} />
                                     </figure>
                                     <div className="portfolio_box">
                                         <p className='text-white'>Small Robo with audio and dancing mode.</p>
@@ -113,8 +113,6 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="row" data-aos="fade-up">
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="portfolio_image">
                                 <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={Drone} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
@@ -129,23 +127,9 @@ const Projects = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" style={{ maxHeight: '400px' }}>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="portfolio_image">
-                                <figure className="mb-0 rounded-4 d-flex align-items-center justify-content-center" style={{ height: '400px', background: '#fff8f821' }}><img src={dustbin} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
-                                <div className="portfolio_box">
-                                    <p>Auto Dustbin for dry and wet wastage.</p>
-                                    <div className="btn_wrapper">
-                                        <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                                <div className="portfolio_image_box">
-                                    <span>Smart Dustbin</span>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-12" style={{ maxHeight: '400px' }}>
-                            <div className="portfolio_image">
-                                <figure className="mb-0 rounded-4 d-flex align-items-center justify-content-center" style={{ height: '400px', background: '#fff8f821' }}><img src={SmartWaterTank} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={SmartWaterTank} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
                                 <div className="portfolio_box">
                                     <p>Smart Water Tank. Get All updates on your mobile phone.</p>
                                     <div className="btn_wrapper">
@@ -154,6 +138,20 @@ const Projects = () => {
                                 </div>
                                 <div className="portfolio_image_box">
                                     <span>Smart Water Tank</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-6 col-12">
+                            <div className="portfolio_image">
+                                <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={dustbin} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                <div className="portfolio_box">
+                                    <p>Auto Dustbin for dry and wet wastage.</p>
+                                    <div className="btn_wrapper">
+                                        <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                    </div>
+                                </div>
+                                <div className="portfolio_image_box">
+                                    <span>Smart Dustbin</span>
                                 </div>
                             </div>
                         </div>

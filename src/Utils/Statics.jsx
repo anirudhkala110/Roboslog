@@ -21,7 +21,7 @@ const Statics = () => {
                                     <span className="plus">K+</span>
                                 </div>
                                 <p className="text-size-16 text-white pp">Project Completed</p>
-                                <p className="text-size-16 mb-0 text">Change the times to start or work.</p>
+                                <p className="text-size-16 mb-0 text">Change the times to complete work at time.</p>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1">
@@ -31,7 +31,7 @@ const Statics = () => {
                                     <span className="plus">K+</span>
                                 </div>
                                 <p className="text-size-16 text-white pp">Happy Clients</p>
-                                <p className="text-size-16 mb-0 text">Don't know the times when you start or work.</p>
+                                <p className="text-size-16 mb-0 text">All have their excellent experience with <strong>RoboSlog</strong>.</p>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1" style={{ zIndex: '500' }}>
@@ -41,7 +41,7 @@ const Statics = () => {
                                     <span className="plus">+</span>
                                 </div>
                                 <p className="text-size-16 text-white pp">Years of Experience</p>
-                                <p className="text-size-16 mb-0 text">As the times of work or labor.</p>
+                                <p className="text-size-16 mb-0 text">Experienced team of Engineers for your ideas; working over 6 years with us.</p>
                             </div>
                         </div>
                     </div>

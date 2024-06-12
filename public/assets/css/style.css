@@ -1690,7 +1690,11 @@ header {
     overflow: hidden;
 }
 
-.sub-banner-section-outer .banner-section {
+.sub-banner-section-outer {
+    padding: 0px 0 120px;
+    z-index: 1;
+}
+.banner-section {
     padding: 132px 0 120px;
     z-index: 1;
 }
