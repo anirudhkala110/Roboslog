@@ -331,6 +331,10 @@ header {
 /* Home Page Banner Section Style */
 
 .banner-section-outer .banner-section {
+    padding: 50px 120px;
+    z-index: 1;
+}
+.banner-section {
     padding: 132px 0 192px;
     z-index: 1;
 }
@@ -2180,7 +2184,8 @@ header {
 /* Contact Page Contact Info Section Style */
 
 .contact_info_section {
-    padding: 150px 0 125px;
+    /* padding: 150px 0 125px; */
+    padding: 50px;
     background-color: var(--e-global-color-black);
 }
 

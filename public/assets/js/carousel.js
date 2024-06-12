@@ -6,18 +6,19 @@ $(document).ready(function () {
         loop: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 4500,
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 2
-            },
-            992: {
-                items: 3
-            }
-        }
+        autoplayTimeout: 1000,
+        autoplayHoverPause:true,
+        // responsive: {
+        //     0: {
+        //         items: 1
+        //     },
+        //     576: {
+        //         items: 2
+        //     },
+        //     992: {
+        //         items: 3
+        //     }
+        // }
     })
 })
 
@@ -29,17 +30,17 @@ $(document).ready(function () {
         loop: true,
         dots: true,
         autoplay: true,
-        autoplayTimeout: 4500,
-        responsive: {
-            0: {
-                items: 1
-            },
-            576: {
-                items: 1
-            },
-            992: {
-                items: 2
-            }
-        }
+        autoplayTimeout: 1500,
+        // responsive: {
+        //     0: {
+        //         items: 1
+        //     },
+        //     576: {
+        //         items: 1
+        //     },
+        //     992: {
+        //         items: 2
+        //     }
+        // }
     })
 })

@@ -24,7 +24,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-2 col-md-4 col-sm-3 col-xs-12 d-md-block d-none">
+                            <div class="col-lg-3 col-md-4 col-sm-3 col-xs-12 d-md-block d-none">
                                 <div class="links_col">
                                     <h4>Useful Links</h4>
                                     <ul class="list-unstyled mb-0">
@@ -52,6 +52,10 @@ const Footer = () => {
                                             <span></span>
                                             <a href="/contact">Contact us</a>
                                         </li>
+                                        <li>
+                                            <span></span>
+                                            <a href="#navbar">Careers</a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -74,7 +78,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-sm-left text-center d-lg-block d-none">
+                            {/* <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-sm-left text-center d-lg-block d-none">
                                 <div class="footer-info-content">
                                     <h4>Newsletter</h4>
                                     <input type="email" name="email" id="emailadd" class="form-control" placeholder="Enter Email:" />
@@ -88,7 +92,7 @@ const Footer = () => {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
                     </div>
                     <div class="footer_right_shape top_bottom_shape">

@@ -34,7 +34,7 @@ const About = () => {
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="banner_image position-relative">
-                                    <figure class="banner_main_image mb-0 left_right_shape " style={{ marginTop: "50px" }}>
+                                    <figure class="banner_main_image mb-0 left_right_shape " style={{ marginTop: "80px" }}>
                                         <img src={complete} className='px-3' alt="" style={{ minWidth: "250px", maxWidth: '550px', background: 'rgb(0 0 0 / 10%)', filter: "drop-shadow(2px 4px 6px rgb(114 172 225))" }} /></figure>
                                     <figure class="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
                                         <img src="./assets/images/sub_banner_image_bottom_shape.png" alt="" class="img-fluid" /></figure>

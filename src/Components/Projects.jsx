@@ -33,8 +33,8 @@ const Projects = () => {
                             </div>
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="banner_image position-relative p-3">
-                                    <figure class="banner_main_image mb-0 left_right_shape">
-                                        <img src={complete} className="rounded-4 px-3 mt-5" alt="" style={{ minHeight: "220px", minWidth: "250px", maxHeight: '550px', background: '#ffffff14' }} />
+                                    <figure class="banner_main_image mb-0 left_right_shape" style={{marginTop:'80px'}}>
+                                        <img src={complete} className="rounded-4 px-3" alt="" style={{ minHeight: "220px", minWidth: "250px", maxHeight: '550px',  background: 'rgb(0 0 0 / 10%)', filter: "drop-shadow(2px 4px 6px rgb(114 172 225))" }} />
                                     </figure>
                                     <figure class="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
                                         <img src="./assets/images/sub_banner_image_bottom_shape.png" alt="" class="img-fluid" style={{ marginLeft: "", marginTop: "" }} />
@@ -69,7 +69,8 @@ const Projects = () => {
                                     <div className="portfolio_image_box">
                                         <span>Dancing Robo</span>
                                     </div>
-                                    <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', width: '', background: '#fff8f821' }}>
+                                    {/* <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', width: '', background: '#fff8f821' }}> */}
+                                    <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', width: '', background: '' }}>
                                         <img src={project1} alt="" className="img-fluid" style={{ maxHeight: '400px', height: '100%' }} />
                                     </figure>
                                     <div className="portfolio_box">
@@ -84,7 +85,7 @@ const Projects = () => {
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={clock} alt="" className="img-fluid" style={{ height: '400px' }} /></figure>
+                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '' }}><img src={clock} alt="" className="img-fluid" style={{ height: '400px' }} /></figure>
                                     <div className="portfolio_box">
                                         <p>3D Clock with best sound effects and with 360<sup>o</sup> view.</p>
                                         <div className="btn_wrapper">
@@ -100,7 +101,7 @@ const Projects = () => {
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={autoDil3} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '' }}><img src={autoDil3} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
                                     <div className="portfolio_box">
                                         <p>Automatic delivery with all safety majors.</p>
                                         <div className="btn_wrapper">
@@ -115,7 +116,7 @@ const Projects = () => {
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="portfolio_image">
-                                <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={Drone} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                <figure className="mb-0 rounded-4" style={{ height: '400px', background: '' }}><img src={Drone} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
                                 <div className="portfolio_box">
                                     <p>Automatic detection and security drone.</p>
                                     <div className="btn_wrapper">
@@ -129,7 +130,7 @@ const Projects = () => {
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="portfolio_image">
-                                <figure className="mb-0 rounded-4 d-flex justify-content-center" style={{ height: '400px', background: '#fff8f821' }}><img src={SmartWaterTank} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                <figure className="mb-0 rounded-4 d-flex justify-content-center" style={{ height: '400px', background: '' }}><img src={SmartWaterTank} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
                                 <div className="portfolio_box">
                                     <p>Smart Water Tank. Get All updates on your mobile phone.</p>
                                     <div className="btn_wrapper">
@@ -143,7 +144,7 @@ const Projects = () => {
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="portfolio_image">
-                                <figure className="mb-0 rounded-4 d-flex justify-content-center" style={{ height: '400px', background: '#fff8f821' }}><img src={dustbin} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                <figure className="mb-0 rounded-4 d-flex justify-content-center" style={{ height: '400px', background: '' }}><img src={dustbin} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
                                 <div className="portfolio_box">
                                     <p>Auto Dustbin for dry and wet wastage.</p>
                                     <div className="btn_wrapper">

@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import AOS from 'aos'
 import Statics from '../Utils/Statics'
 import FAQ from './FAQ'
@@ -8,6 +8,10 @@ import mainImg from '../Images/mainHome.jpg'
 import project1 from '../Images/smallRobo.png'
 import autoDil3 from '../Images/Autodil3.png'
 import clock from '../Images/clock.png'
+import leftBanner from '../Images/childRobo.jpg'
+import Drone from '../Images/Drone.png'
+import dustbin from '../Images/dustbin.png'
+import SmartWaterTank from '../Images/SmartWaterTank.jpg'
 
 const Homepage = () => {
     useEffect(() => {
@@ -63,7 +67,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <figure className="banner_left_image mb-0 position-absolute left_right_shape">
-                            <img src="./assets/images/banner_left_image.jpg" alt="" className="img-fluid" style={{ maxWidth: '250px' }} /></figure>
+                            <img src={leftBanner} alt="" className="img-fluid" style={{ maxWidth: '300px' }} /></figure>
                         <a href="#footer_section" className="top-btn">
                             <figure className=" position-absolute homerMe text-white" style={{ marginTop: '-75px' }}>
                                 <button className='btn btn-outline-primary'> Bottom <b className='bi bi-arrow-down' ></b></button>
@@ -146,7 +150,7 @@ const Homepage = () => {
                                         <img src="./assets/images/aboutus_box_image.png" alt="" className="img-fluid hover-effect" /></figure>
                                     <div className="image_content_wrapper">
                                         <div className="span_wrapper">
-                                            <span className="number counter">6</span>
+                                            <span className="number counter">5</span>
                                             <span className="plus">+</span>
                                         </div>
                                         <p className="mb-0">Years of Experience</p>
@@ -262,14 +266,18 @@ const Homepage = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="row text-white" data-aos="fade-up" style={{ zIndex: '450' }}>
-                        <div className="owl-carousel owl-theme">
+                    <div className="row text-white mb-4" data-aos="" style={{ zIndex: '450' }}>
+                        {/* <div className={`${hover?"owl-carousel":"owl-carousel "} owl-theme `} onMouseEnter={e => setHover(true)} onMouseLeave={e => setHover(false)}> */}
+                        <div className={`owl-carousel owl-theme `} style={{cursor:'pointer'}} >
                             <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
                                     <div className="portfolio_image_box">
                                         <span>Dancing Robo</span>
                                     </div>
-                                    <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', background: '#fff8f821' }}>
+                                    <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{
+                                        height: '400px',
+                                        // background: '#fff8f821'
+                                    }}>
                                         <img src={project1} alt="" className="img-fluid" style={{ height: '400px' }} />
                                     </figure>
                                     <div className="portfolio_box">
@@ -282,7 +290,11 @@ const Homepage = () => {
                             </div>
                             <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={clock} alt="" className="img-fluid" style={{ height: '400px' }} /></figure>
+                                    <figure className="mb-0 rounded-4" style={{
+                                        height: '400px',
+                                        // background: '#fff8f821'
+
+                                    }}><img src={clock} alt="" className="img-fluid" style={{ height: '400px' }} /></figure>
                                     <div className="portfolio_box">
                                         <p>3D Clock with best sound effects and with 360<sup>o</sup> view.</p>
                                         <div className="btn_wrapper">
@@ -296,7 +308,10 @@ const Homepage = () => {
                             </div>
                             <div className="item" style={{ maxHeight: '400px' }}>
                                 <div className="portfolio_image">
-                                    <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={autoDil3} style={{ height: '400px' }} alt="" className="img-fluid" /></figure>
+                                    <figure className="mb-0 rounded-4" style={{
+                                        height: '400px',
+                                        // background: '#fff8f821'
+                                    }}><img src={autoDil3} style={{ height: '400px' }} alt="" className="img-fluid" /></figure>
                                     <div className="portfolio_box">
                                         <p>Automatic delivery with all safety majors.</p>
                                         <div className="btn_wrapper">
@@ -305,6 +320,59 @@ const Homepage = () => {
                                     </div>
                                     <div className="portfolio_image_box">
                                         <span>Auto Delivery</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="item" style={{ maxHeight: '400px' }}>
+                                <div className="portfolio_image">
+                                    <figure className="mb-0 rounded-4" style={{
+                                        height: '400px',
+                                        // background: '#fff8f821' 
+
+                                    }}><img src={Drone} style={{ height: '400px' }} alt="" className="img-fluid" /></figure>
+                                    <div className="portfolio_box">
+                                        <p>Automatic detection and security drone</p>
+                                        <div className="btn_wrapper">
+                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio_image_box">
+                                        <span>Security Drone</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="item" style={{ maxHeight: '400px' }}>
+                                <div className="portfolio_image">
+                                    <figure className="mb-0 rounded-4" style={{
+                                        height: '400px',
+                                        // background: '#fff8f821'
+
+                                    }}><img src={SmartWaterTank} style={{ height: '400px' }} alt="" className="img-fluid" /></figure>
+                                    <div className="portfolio_box">
+                                        <p>Smart Water Tank. Get All updates on your mobile phone.</p>
+                                        <div className="btn_wrapper">
+                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio_image_box">
+                                        <span>Smart Water Tank</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="item" style={{ maxHeight: '400px' }}>
+                                <div className="portfolio_image">
+                                    <figure className="mb-0 rounded-4" style={{
+                                        height: '400px',
+                                        //  background: '#fff8f821'
+                                    }}><img src={dustbin} style={{ height: '400px' }} alt="" className="img-fluid" /></figure>
+                                    <div className="portfolio_box">
+                                        <p>Auto Dustbin for dry and wet wastage.</p>
+                                        <div className="btn_wrapper">
+                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                        </div>
+                                    </div>
+                                    <div className="portfolio_image_box">
+                                        <span>Smart Dustbin</span>
                                     </div>
                                 </div>
                             </div>

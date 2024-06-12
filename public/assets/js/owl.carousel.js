@@ -2978,7 +2978,7 @@
 		dotClass: 'owl-dot',
 		dotsClass: 'owl-dots',
 		dots: true,
-		dotsEach: false,
+		dotsEach: true,
 		dotsData: false,
 		dotsSpeed: false,
 		dotsContainer: false

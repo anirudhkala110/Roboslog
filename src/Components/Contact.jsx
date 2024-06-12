@@ -21,7 +21,7 @@ const Contact = () => {
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="banner-section-content">
-                                        <h1 class="text-white" style={{fontSize:'3em'}} data-aos="fade-up">Contact Us</h1>
+                                        <h1 class="text-white" style={{ fontSize: '3em' }} data-aos="fade-up">Contact Us</h1>
                                         <p class="text-white" data-aos="fade-right">Connect with us. We are always here to help you.</p>
                                         <div class="btn_wrapper" data-aos="fade-up">
                                             <span> Home </span><i class="fa-solid fa-angles-right" aria-hidden="true"></i><span class="sub_span">Contact</span>
@@ -31,7 +31,7 @@ const Contact = () => {
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="banner_image position-relative">
                                         <figure class="banner_main_image mb-0 left_right_shape">
-                                            <img src="./assets/images/contact_banner_image.jpg" alt="" style={{marginTop:'50px'}} />
+                                            <img src="./assets/images/contact_banner_image.jpg" alt="" style={{ marginTop: '50px' }} />
                                         </figure>
                                         <figure class="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
                                             <img src="./assets/images/sub_banner_image_bottom_shape.png" alt="" class="img-fluid" />
@@ -53,7 +53,7 @@ const Contact = () => {
             <section class="contact_info_section position-relative">
                 <div class="container">
                     <div class="row">
-                        <div class="col-lg-5 col-md-12 col-sm-12 col-xs-12">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                             <div class="row">
                                 <div class="col-lg-12 col-md-12 col-sm-12 col-12">
                                     <div class="contact_info_content">
@@ -101,7 +101,7 @@ const Contact = () => {
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12" data-aos="fade-right">
+                        {/* <div class="col-lg-7 col-md-12 col-sm-12 col-xs-12" data-aos="fade-right">
                             <div class="contact_info_form_content">
                                 <h4>Send us a Message</h4>
                                 <form id="contactpage" method="POST" action="">
@@ -138,7 +138,7 @@ const Contact = () => {
                                     </div>
                                 </form>
                             </div>
-                        </div>
+                        </div> */}
                     </div>
                     <figure class="contact_info_left_shape mb-0 position-absolute top_bottom_shape">
                         <img src="./assets/images/contact_info_left_shape.png" alt="" class="img-fluid" />
@@ -154,12 +154,12 @@ const Contact = () => {
                 </div>
             </div>
             {/* <!--COMBO SECTION-- > */}
-            <section class="combo_section contact_combo_section">
+            {/* <section class="combo_section contact_combo_section"> */}
                 {/* <!-- CLIENT LOGO'S SECTION --> */}
                 {/* <ClientsLogo /> */}
                 {/* <!-- GET STARTED SECTION --> */}
                 {/* <GetStarted /> */}
-            </section>
+            {/* </section> */}
         </ >
     )
 }
