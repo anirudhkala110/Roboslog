@@ -83,7 +83,7 @@ const Projects = () => {
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
-                            <div style={{ maxHeight: '400px' }} className='bg-white rounded-5'>
+                            <div style={{ maxHeight: '400px' }} className=' rounded-5'>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{ height: '400px', background: '' }}><img src={clock} alt="" className="img-fluid" style={{ height: '400px' }} /></figure>
                                     <div className="portfolio_box">
