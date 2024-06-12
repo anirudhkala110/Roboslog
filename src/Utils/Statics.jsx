@@ -14,8 +14,8 @@ const Statics = () => {
                                 <h3 className="mb-0 fw-bold">Empowering The Future With new technologies.</h3>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1">
-                            <div className="statistics_box hover-effect">
+                        <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">
+                            <div className="statistics_box hover-effect" style={{ minHeight: "305px" }}>
                                 <div className="span_wrapper">
                                     <span className="number counter">18</span>
                                     <span className="plus">K+</span>
@@ -24,8 +24,8 @@ const Statics = () => {
                                 <p className="text-size-16 mb-0 text">Change the times to complete work at time.</p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1">
-                            <div className="statistics_box hover-effect">
+                        <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">
+                            <div className="statistics_box hover-effect" style={{ minHeight: "305px" }}>
                                 <div className="span_wrapper">
                                     <span className="number counter">10</span>
                                     <span className="plus">K+</span>
@@ -34,8 +34,8 @@ const Statics = () => {
                                 <p className="text-size-16 mb-0 text">All have their excellent experience with <strong>RoboSlog</strong>.</p>
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-3 col-sm-6 col-12 my-1" style={{ zIndex: '500' }}>
-                            <div className="statistics_box hover-effect" >
+                        <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">
+                            <div className="statistics_box hover-effect" style={{ minHeight: "305px" }} >
                                 <div className="span_wrapper">
                                     <span className="number counter">6</span>
                                     <span className="plus">+</span>

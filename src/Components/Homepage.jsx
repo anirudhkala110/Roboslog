@@ -65,8 +65,9 @@ const Homepage = () => {
                         <figure className="banner_left_image mb-0 position-absolute left_right_shape">
                             <img src="./assets/images/banner_left_image.jpg" alt="" className="img-fluid" style={{ maxWidth: '250px' }} /></figure>
                         <a href="#footer_section" className="top-btn">
-                            <figure className=" position-absolute" style={{marginTop:'-75px'}}>
-                                <img src="./assets/images/scroll_down_image.png" alt="" className="img-fluid "  /></figure>
+                            <figure className=" position-absolute homerMe text-white" style={{ marginTop: '-75px' }}>
+                                <button className='btn btn-outline-primary'> Bottom <b className='bi bi-arrow-down' ></b></button>
+                            </figure>
                         </a>
                     </div>
                 </section>
@@ -156,20 +157,20 @@ const Homepage = () => {
                         <div className="col-lg-6 col-md-12 col-sm-12 col-xs-12">
                             <div className="aboutus_content" data-aos="fade-right">
                                 <h6>About US</h6>
-                                <h2>Empowering Business with AI Solutions</h2>
-                                <p>Consectetur adipiscing elit sed do eiusmod tempor inlabore aet dolore magna aliqua ruis ipsum suspendisse ultrices rav sit ame incididun zeras.</p>
+                                <h2>Empowering Business with <b>RoboSlog</b> Solutions</h2>
+                                <p>RoboSlog is supplier of all kinds of Robotics and Automation Services.</p>
                                 <ul className="list-unstyled mb-0">
                                     <li>
                                         <i className="fa fa-check" aria-hidden="true"></i>
-                                        <p>Quis autem vel eum iure reprehenderit aui ratione</p>
+                                        <p>Create Specific devices with most latest security system.</p>
                                     </li>
                                     <li>
                                         <i className="fa fa-check" aria-hidden="true"></i>
-                                        <p>Suscipit laboriosam nisi rut aliuid eum iure moli venia</p>
+                                        <p>Available for all type of business and also for School and College Projects</p>
                                     </li>
                                     <li>
                                         <i className="fa fa-check" aria-hidden="true"></i>
-                                        <p>Dolor repellendus temporibus autem auibus dolor</p>
+                                        <p>On time completion of projects.</p>
                                     </li>
                                 </ul>
                                 <div className="btn_wrapper">

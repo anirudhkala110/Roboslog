@@ -1683,6 +1683,31 @@ header {
 
 .bi-whatsapp {}
 
+.homerMe:hover button {
+    background-color: rgb(0, 106, 255);
+    color: white;
+    animation: animate 1s infinite linear;
+}
+
+@keyframes animate {
+    0% {
+        transform: translateY(0px);
+        color: white;
+        background-color: rgb(0, 106, 255);
+    }
+
+    50% {
+        color: rgb(0, 0, 0);
+        transform: translateY(50px);
+        background-color: rgb(255, 255, 255);
+    }
+    100% {
+        color: white;
+        transform: translateY(0px);
+        background-color: rgb(0, 106, 255);
+    }
+}
+
 /* About Page Style */
 
 /* About Page Banner Section Style */

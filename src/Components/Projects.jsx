@@ -129,7 +129,7 @@ const Projects = () => {
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="portfolio_image">
-                                <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={SmartWaterTank} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                <figure className="mb-0 rounded-4 d-flex justify-content-center" style={{ height: '400px', background: '#fff8f821' }}><img src={SmartWaterTank} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
                                 <div className="portfolio_box">
                                     <p>Smart Water Tank. Get All updates on your mobile phone.</p>
                                     <div className="btn_wrapper">
@@ -143,7 +143,7 @@ const Projects = () => {
                         </div>
                         <div class="col-lg-4 col-md-6 col-sm-6 col-12">
                             <div className="portfolio_image">
-                                <figure className="mb-0 rounded-4" style={{ height: '400px', background: '#fff8f821' }}><img src={dustbin} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
+                                <figure className="mb-0 rounded-4 d-flex justify-content-center" style={{ height: '400px', background: '#fff8f821' }}><img src={dustbin} style={{ height: '400px' }} alt="" className="img-fluid p-2" /></figure>
                                 <div className="portfolio_box">
                                     <p>Auto Dustbin for dry and wet wastage.</p>
                                     <div className="btn_wrapper">
