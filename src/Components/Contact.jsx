@@ -31,7 +31,7 @@ const Contact = () => {
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="banner_image position-relative">
                                         <figure class="banner_main_image mb-0 left_right_shape">
-                                            <img src="./assets/images/contact_banner_image.jpg" alt="" />
+                                            <img src="./assets/images/contact_banner_image.jpg" alt="" style={{marginTop:'50px'}} />
                                         </figure>
                                         <figure class="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
                                             <img src="./assets/images/sub_banner_image_bottom_shape.png" alt="" class="img-fluid" />
