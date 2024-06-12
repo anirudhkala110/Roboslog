@@ -26,7 +26,7 @@ const Homepage = () => {
             <div className="banner-section-outer position-relative">
 
                 {/* <!-- BANNER SECTION --> */}
-                <section className="banner-section position-relative">
+                <section className="banner-section position-relative" style={{padding:"125px "}}>
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-1 col-md-1 col-sm-1 col-1 d-md-block d-none">
