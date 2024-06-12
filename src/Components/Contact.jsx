@@ -21,7 +21,7 @@ const Contact = () => {
                             <div class="row">
                                 <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                     <div class="banner-section-content">
-                                        <h1 class="text-white" data-aos="fade-up">Contact Us</h1>
+                                        <h1 class="text-white" style={{fontSize:'3em'}} data-aos="fade-up">Contact Us</h1>
                                         <p class="text-white" data-aos="fade-right">Connect with us. We are always here to help you.</p>
                                         <div class="btn_wrapper" data-aos="fade-up">
                                             <span> Home </span><i class="fa-solid fa-angles-right" aria-hidden="true"></i><span class="sub_span">Contact</span>

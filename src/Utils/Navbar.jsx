@@ -6,10 +6,10 @@ import Logo from './logo.png'
 const Navbar = () => {
     return (
         <div>
-            <header>
-                <div className="container">
+            <header style={{ boxShadow: '0px 0px 5px 1px #00a6ff73' }}>
+                <div className="container" >
                     <nav id="navbar" className="navbar navbar-expand-lg navbar-light d-flex justify-content-between align-items-center">
-                        <a className="navbar-brand" href="/"><figure className="mb-0 d-flex align-items-center justify-content-center"><img src={Logo} style={{ maxHeight: '45px', filter: 'invert(1)' }} alt="RoboSlog" className="img-fluid" /><div className='mx-2 text-white' style={{ fontFamily: 'Manrope', letterSpacing: '2px' }}>ROBOSLOG</div></figure></a>
+                        <a className="navbar-brand" href="/"><figure className="mb-0 d-flex align-items-center justify-content-center"><img src={Logo} style={{ maxHeight: '45px', maxWidth: '45px', filter: 'invert(1)' }} alt="RoboSlog" className="img-fluid" /><div className='mx-2 text-white' style={{ fontFamily: 'Manrope', letterSpacing: '2px' }}>ROBOSLOG</div></figure></a>
                         <button className="navbar-toggler collapsed" style={{ width: '55px' }} type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span className="navbar-toggler-icon"></span>
                             <span className="navbar-toggler-icon"></span>

@@ -66,7 +66,7 @@ const faqs = [
 
 const FAQS = () => {
     return (
-        <div className='py-5'>
+        <div className='py-5 min-vh-100'>
             <div>
                 <div className="accordian-section" style={{ zIndex: '1000' }}>
                     <div className="container">

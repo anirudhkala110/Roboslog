@@ -15,7 +15,7 @@ const Statics = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">
-                            <div className="statistics_box hover-effect" style={{ minHeight: "305px" }}>
+                            <div className="statistics_box hover-effect" style={{ minHeight: "-webkit-fill-available" }}>
                                 <div className="span_wrapper">
                                     <span className="number counter">18</span>
                                     <span className="plus">K+</span>
@@ -25,7 +25,7 @@ const Statics = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">
-                            <div className="statistics_box hover-effect" style={{ minHeight: "305px" }}>
+                            <div className="statistics_box hover-effect" style={{ minHeight: "-webkit-fill-available" }}>
                                 <div className="span_wrapper">
                                     <span className="number counter">10</span>
                                     <span className="plus">K+</span>
@@ -35,7 +35,7 @@ const Statics = () => {
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">
-                            <div className="statistics_box hover-effect" style={{ minHeight: "305px" }} >
+                            <div className="statistics_box hover-effect" style={{ minHeight: "-webkit-fill-available" }} >
                                 <div className="span_wrapper">
                                     <span className="number counter">6</span>
                                     <span className="plus">+</span>
