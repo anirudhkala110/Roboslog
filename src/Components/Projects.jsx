@@ -143,7 +143,7 @@ const Projects = () => {
                         {
                             projects.map((data, idx) =>
                             (
-                                <div id={`${data.target}`} className="collapse px-4 rounded-2 me-5" aria-labelledby="headingSix" style={{ position: "fixed",background:"#040b2b", zIndex: '600', maxHeight: '750px', maxWidth: '', top: '50px', left: '50px', right: "0px", overflow: 'auto', boxShadow: 'rgb(0 0 0 / 77%) 0px 0px 8000px 4000px' }} key={idx}>
+                                <div id={`${data.target}`} className="collapse px-4 rounded-2 me-5" aria-labelledby="headingSix" style={{ position: "fixed",background:"#040b2b", zIndex: '600', height: '80vh', maxWidth: '', top: '50px', left: '50px', right: "0px", overflow: 'auto', boxShadow: 'rgb(0 0 0 / 77%) 0px 0px 8000px 4000px' }} key={idx}>
                                     <div className='d-flex align-items-center justify-content-end'>
                                         <button className="btn btn-link collapsed text-decoration-none text-white fs-3 btn-danger my-2 " data-toggle="collapse" data-target={`#${data.target}`} aria-expanded="false" aria-controls={`${data.target}`}>Close<i className="fa-solid fa-x mx-3"></i></button>
                                     </div>
