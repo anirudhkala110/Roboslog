@@ -268,7 +268,7 @@ const Homepage = () => {
                     </div>
                     <div className="row text-white mb-4" data-aos="" style={{ zIndex: '450' }}>
                         {/* <div className={`${hover?"owl-carousel":"owl-carousel "} owl-theme `} onMouseEnter={e => setHover(true)} onMouseLeave={e => setHover(false)}> */}
-                        <div className={`owl-carousel owl-theme `} style={{ cursor: 'pointer' }} >
+                        <div className={`owl-carousel owl-theme d-block `} style={{ cursor: 'pointer' }} >
                             <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <div className="portfolio_image_box">
