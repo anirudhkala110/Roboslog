@@ -12,7 +12,7 @@ const Statics = () => {
                                 <h2 className='fw-semibold text-white' style={{ fontSize: '3rem' }}> <img src={logo} className='me-3' style={{ height: '60px' }} />RoboSlog</h2>
                             </center>
                             <div className="statistics_content">
-                                <center><h3 className="mb-0 fw-bold">Empowering The Future With new technologies.</h3></center>
+                                <center><h3 className="mb-0 fw-bold">Empowering The Future With New Technologies.</h3></center>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">
