@@ -49,7 +49,7 @@ const Navbar = () => {
                                     <NavLink className="nav-link" to="/faqs">FAQs</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/contact">Contact us</NavLink>
+                                    <NavLink className="nav-link" to="/contact">Contact Us</NavLink>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className='nav-link' target='__blank' to='https://api.whatsapp.com/send/?phone=%2B916306854780&text&type=phone_number&app_absent=0'><b class="bi bi-whatsapp fs-3"></b> </NavLink>
