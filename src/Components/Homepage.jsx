@@ -269,7 +269,7 @@ const Homepage = () => {
                     <div className="row text-white mb-4" data-aos="" style={{ zIndex: '450' }}>
                         {/* <div className={`${hover?"owl-carousel":"owl-carousel "} owl-theme `} onMouseEnter={e => setHover(true)} onMouseLeave={e => setHover(false)}> */}
                         <div className={`owl-carousel owl-theme `} style={{ cursor: 'pointer' }} >
-                            <div className="item" style={{ maxHeight: '400px'}}>
+                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <div className="portfolio_image_box">
                                         <span>Dancing Robo</span>
@@ -288,7 +288,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px'}}>
+                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -306,7 +306,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px'}}>
+                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -323,7 +323,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px'}}>
+                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -341,7 +341,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px'}}>
+                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -359,7 +359,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px'}}>
+                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',

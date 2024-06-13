@@ -9,7 +9,7 @@ const Statics = () => {
                     <div className="row" data-aos="fade-up">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12 mb-4">
                             <center>
-                                <h2 className='fw-semibold text-white' style={{ fontSize: '3rem' }}>RoboSlog <img src={logo} style={{height:'70px'}}/></h2>
+                                <h2 className='fw-semibold text-white' style={{ fontSize: '3rem' }}> <img src={logo} className='me-3' style={{ height: '60px' }} />RoboSlog</h2>
                             </center>
                             <div className="statistics_content">
                                 <center><h3 className="mb-0 fw-bold">Empowering The Future With new technologies.</h3></center>
