@@ -269,7 +269,7 @@ const Homepage = () => {
                     <div className="row text-white mb-4" data-aos="" style={{ zIndex: '450' }}>
                         {/* <div className={`${hover?"owl-carousel":"owl-carousel "} owl-theme `} onMouseEnter={e => setHover(true)} onMouseLeave={e => setHover(false)}> */}
                         <div className={`owl-carousel owl-theme `} style={{ cursor: 'pointer' }} >
-                            <div className="item" style={{ maxHeight: '400px' }}>
+                            <div className="item" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <div className="portfolio_image_box">
                                         <span>Dancing Robo</span>
@@ -283,12 +283,12 @@ const Homepage = () => {
                                     <div className="portfolio_box">
                                         <p className='text-white'>Small Robo with audio and dancing mode.</p>
                                         <div className="btn_wrapper">
-                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                            <a href="/projects" className="text-decoration-none">See More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px' }}>
+                            <div className="item" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -298,7 +298,7 @@ const Homepage = () => {
                                     <div className="portfolio_box">
                                         <p>3D Clock with best sound effects and with 360<sup>o</sup> view.</p>
                                         <div className="btn_wrapper">
-                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                            <a href="/projects" className="text-decoration-none">See More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="portfolio_image_box">
@@ -306,7 +306,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px' }}>
+                            <div className="item" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -315,7 +315,7 @@ const Homepage = () => {
                                     <div className="portfolio_box">
                                         <p>Automatic delivery with all safety majors.</p>
                                         <div className="btn_wrapper">
-                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                            <a href="/projects" className="text-decoration-none">See More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="portfolio_image_box">
@@ -323,7 +323,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px' }}>
+                            <div className="item" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -333,7 +333,7 @@ const Homepage = () => {
                                     <div className="portfolio_box">
                                         <p>Automatic detection and security drone</p>
                                         <div className="btn_wrapper">
-                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                            <a href="/projects" className="text-decoration-none">See More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="portfolio_image_box">
@@ -341,7 +341,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px' }}>
+                            <div className="item" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -351,7 +351,7 @@ const Homepage = () => {
                                     <div className="portfolio_box">
                                         <p>Smart Water Tank. Get All updates on your mobile phone.</p>
                                         <div className="btn_wrapper">
-                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                            <a href="/projects" className="text-decoration-none">See More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="portfolio_image_box">
@@ -359,7 +359,7 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="item" style={{ maxHeight: '400px' }}>
+                            <div className="item" style={{ maxHeight: '400px'}}>
                                 <div className="portfolio_image">
                                     <figure className="mb-0 rounded-4" style={{
                                         height: '400px',
@@ -368,7 +368,7 @@ const Homepage = () => {
                                     <div className="portfolio_box">
                                         <p>Auto Dustbin for dry and wet wastage.</p>
                                         <div className="btn_wrapper">
-                                            <a href="/projects" className="text-decoration-none">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                            <a href="/projects" className="text-decoration-none">See More<i className="fa-solid fa-angle-right"></i></a>
                                         </div>
                                     </div>
                                     <div className="portfolio_image_box">

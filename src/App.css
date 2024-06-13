@@ -334,6 +334,7 @@ header {
     padding: 50px 120px;
     z-index: 1;
 }
+
 .banner-section {
     padding: 132px 0 192px;
     z-index: 1;
@@ -946,6 +947,8 @@ header {
 .portfolio_section .portfolio_image {
     position: relative;
     margin-bottom: 150px;
+    /* min-width: 300px;
+    margin: auto 50px; */
     transition: all 0.3s ease-in-out;
 }
 
@@ -1714,6 +1717,7 @@ header {
         transform: translateY(50px);
         background-color: rgb(255, 255, 255);
     }
+
     100% {
         color: white;
         transform: translateY(0px);
@@ -2363,4 +2367,33 @@ header {
 
 .contact_client_logos_section {
     padding-top: 0;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    border-radius: 50px;
+    box-shadow: inset 0px 0px 10px 1px rgb(8, 12, 92);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+::-webkit-scrollbar-button {
+    /* color: rgb(0, 0, 0); */
+    /* border-radius: 50%; */
+    display: none;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(0, 110, 255);
+    border-radius: 50px;
+}
+
+::-webkit-scrollbar-track {
+    /* background: rgb(114, 172, 225); */
+}
+
+::-webkit-slider-thumb {}
+
+html {
+    background: black;
+    background-color: #000000;
 }

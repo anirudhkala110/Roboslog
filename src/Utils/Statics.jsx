@@ -1,17 +1,18 @@
 import React from 'react'
+import logo from '../Utils/logo.png'
 
 const Statics = () => {
     return (
-        <div>
-            <section className="statistics_section position-relative">
+        <div className=''>
+            <section className="statistics_section position-relative min-vh-100">
                 <div className="container">
                     <div className="row" data-aos="fade-up">
-                        <div className="col-lg-6 col-md-12 col-sm-12 col-12">
+                        <div className="col-lg-12 col-md-12 col-sm-12 col-12 mb-4">
                             <center>
-                                <h2 className='fw-semibold' style={{ fontSize: '3rem' }}>RoboSlog</h2>
+                                <h2 className='fw-semibold text-white' style={{ fontSize: '3rem' }}>RoboSlog <img src={logo} style={{height:'70px'}}/></h2>
                             </center>
                             <div className="statistics_content">
-                                <h3 className="mb-0 fw-bold">Empowering The Future With new technologies.</h3>
+                                <center><h3 className="mb-0 fw-bold">Empowering The Future With new technologies.</h3></center>
                             </div>
                         </div>
                         <div className="col-lg-6 col-md-4 col-sm-6 col-12 my-1">

@@ -14,7 +14,7 @@ const Contact = () => {
     })
     return (
         <>
-            <div className='banner-section-outer position-relative'>
+            <div className='banner-section-outer position-relative min-vh-100 pt-5'>
                 <div class="sub-banner-section-outer contact-banner-section-outer position-relative">
                     <section class="banner-section position-relative">
                         <div class="container">
@@ -155,10 +155,10 @@ const Contact = () => {
             </div>
             {/* <!--COMBO SECTION-- > */}
             {/* <section class="combo_section contact_combo_section"> */}
-                {/* <!-- CLIENT LOGO'S SECTION --> */}
-                {/* <ClientsLogo /> */}
-                {/* <!-- GET STARTED SECTION --> */}
-                {/* <GetStarted /> */}
+            {/* <!-- CLIENT LOGO'S SECTION --> */}
+            {/* <ClientsLogo /> */}
+            {/* <!-- GET STARTED SECTION --> */}
+            {/* <GetStarted /> */}
             {/* </section> */}
         </ >
     )

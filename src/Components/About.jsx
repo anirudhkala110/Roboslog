@@ -141,7 +141,7 @@ const About = () => {
                                     </li>
                                 </ul>
                                 <div class="btn_wrapper">
-                                    <a class="text-decoration-none default-btn btn-size-18 hover-effect" href="/about">Get Started<i class="fa-solid fa-angle-right"></i></a>
+                                    <a class="text-decoration-none default-btn btn-size-18 hover-effect" href="/contact">Get Started<i class="fa-solid fa-angle-right"></i></a>
                                 </div>
                             </div>
                         </div>

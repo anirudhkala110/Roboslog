@@ -3270,7 +3270,8 @@
 
 .no-js .owl-carousel,
 .owl-carousel.owl-loaded {
-  display: block
+  display: block;
+  min-width: 500px;
 }
 
 .owl-carousel .owl-dot,
