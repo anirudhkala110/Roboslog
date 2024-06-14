@@ -9,9 +9,13 @@ const Footer = () => {
                         <div class="row">
                             <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
                                 <div class="about_col">
-                                    <a href="/">
+                                    <a href="/" className='text-decoration-none'>
                                         <figure>
-                                            <img src={Logo} alt="RoboSlog" class="img-fluid" style={{ maxWidth: '150px', filter: 'invert(1)' }} />
+                                            <img src={Logo} alt="RoboSlog" class="img-fluid" style={{ maxWidth: '100px', filter: 'invert(1)' }} />
+                                            <br />
+                                            <strong className=' text-white ' style={{ textDecoration: 'none',marginTop:'50px' }}>
+                                                RoboSlog
+                                            </strong>
                                         </figure>
                                     </a>
                                     <ul class="list-unstyled mb-0">
@@ -24,7 +28,7 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-3 col-xs-12 d-md-block d-none">
+                            <div class="col-lg-3 col-md-4 col-sm-3 col-xs-3 d-md-block d-sm-block">
                                 <div class="links_col">
                                     <h4>Useful Links</h4>
                                     <ul class="list-unstyled mb-0">
@@ -59,7 +63,8 @@ const Footer = () => {
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12 d-sm-block d-none">
+                            <hr className='d-sm-block d-md-block text-white my-3 d-lg-none d-xl-none' />
+                            <div class="col-lg-3 col-md-4 col-sm-3 col-xs-12 d-none d-lg-block">
                                 <div class="contact_col">
                                     <h4>Contact Us</h4>
                                     <ul class="list-unstyled mb-0">

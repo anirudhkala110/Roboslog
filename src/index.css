@@ -940,6 +940,13 @@
     margin-right: 0;
   }
 
+  #contactUs {
+    margin-left: 0px !important;
+    /* background-color: red; */
+    margin-left: -140px !important;
+    width: fit-content;
+  }
+
   .navbar-collapse {
     background: var(--e-global-color-black);
     position: absolute;

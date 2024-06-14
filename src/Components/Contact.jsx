@@ -17,21 +17,21 @@ const Contact = () => {
             <div className='banner-section-outer position-relative min-vh-100 pt-5'>
                 <div class="sub-banner-section-outer contact-banner-section-outer position-relative">
                     <section class="banner-section position-relative">
-                        <div class="container">
+                        <div class="container" id='contactUs' style={{ minWidth: '400px' }}>
                             <div class="row">
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="col-lg-6 col-md-12 col-sm-12">
                                     <div class="banner-section-content">
-                                        <h1 class="text-white" style={{ fontSize: '3em' }} data-aos="fade-up">Contact Us</h1>
+                                        <h2 class="text-white" style={{ fontSize: '3em' }} data-aos="fade-up">Contact Us</h2>
                                         <p class="text-white" data-aos="fade-right">Connect with us. We are always here to help you.</p>
                                         <div class="btn_wrapper" data-aos="fade-up">
                                             <span> Home </span><i class="fa-solid fa-angles-right" aria-hidden="true"></i><span class="sub_span">Contact</span>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+                                <div class="col-lg-6 col-md-12 col-sm-12 mt-5 " >
                                     <div class="banner_image position-relative">
                                         <figure class="banner_main_image mb-0 left_right_shape">
-                                            <img src="./assets/images/contact_banner_image.jpg" alt="" style={{ marginTop: '50px' }} />
+                                            <img src="./assets/images/contact_banner_image.jpg" alt="" style={{ marginTop: '50px',width:'-webkit-fill-available',maxHeight:'350px' }} />
                                         </figure>
                                         <figure class="banner_image_bottom_shape mb-0 position-absolute top_bottom_shape">
                                             <img src="./assets/images/sub_banner_image_bottom_shape.png" alt="" class="img-fluid" />

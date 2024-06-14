@@ -35,7 +35,7 @@ const Homepage = () => {
                                         <img src="./assets/images/best_image.png" alt="" className="img-fluid" /></figure>
                                 </div>
                             </div>
-                            <div className="col-lg-8 col-md-8 col-sm-12 col-12">
+                            <div className="col-lg-5 col-md-12 col-sm-12">
                                 <div className="banner-section-content">
                                     <h2 data-aos="fade-up text-white" style={{ fontSize: '60px' }}><b className='text-white'>RoboSlog</b></h2>
                                     <div className="banner_content_wrapper position-relative">
@@ -55,10 +55,10 @@ const Homepage = () => {
                                     </div>
                                 </div>
                             </div>
-                            <div className="col-lg-3 col-md-3 col-sm-12 col-12">
+                            <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="banner_image position-relative">
-                                    <figure className="banner_main_image mb-0 left_right_shape">
-                                        <img src={mainImg} alt="" style={{ maxWidth: '100%', height: '-webkit-fill-available', maxHeight: '500px', marginBottom: '0px', marginLeft: '50px' }} /></figure>
+                                    <figure className="banner_main_image mb-0 left_right_shape d-flex align-items-center justify-content-center">
+                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '100%',maxWidth:"450px", marginBottom: '0px', marginLeft: '100px',marginTop:"10vh" }} /></figure>
                                     <figure className="banner_image_top_shape mb-0 position-absolute">
                                         <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid" style={{ maxWidth: '' }} /></figure>
                                     <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">
@@ -67,7 +67,7 @@ const Homepage = () => {
                             </div>
                         </div>
                         <figure className="banner_left_image mb-0 position-absolute left_right_shape">
-                            <img src={leftBanner} alt="" className="img-fluid" style={{ maxWidth: '300px' }} /></figure>
+                            <img src={leftBanner} alt="" className="img-fluid" style={{ maxWidth: '320px' }} /></figure>
                         <a href="#footer_section" className="top-btn">
                             <figure className=" position-absolute homerMe text-white" style={{ marginTop: '-75px' }}>
                                 <button className='btn btn-outline-primary'> Bottom <b className='bi bi-arrow-down' ></b></button>
@@ -269,7 +269,7 @@ const Homepage = () => {
                     <div className="row text-white mb-4" data-aos="" style={{ zIndex: '450' }}>
                         {/* <div className={`${hover?"owl-carousel":"owl-carousel "} owl-theme `} onMouseEnter={e => setHover(true)} onMouseLeave={e => setHover(false)}> */}
                         <div className={`owl-carousel owl-theme d-block `} style={{ cursor: 'pointer' }} >
-                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px'}}>
+                            <div className="item bg-white rounded-5" style={{ maxHeight: '400px',minWidth:"200px"}}>
                                 <div className="portfolio_image">
                                     <div className="portfolio_image_box">
                                         <span>Dancing Robo</span>

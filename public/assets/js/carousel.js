@@ -8,17 +8,20 @@ $(document).ready(function () {
         autoplay: true,
         autoplayTimeout: 1000,
         autoplayHoverPause:true,
-        // responsive: {
-        //     0: {
-        //         items: 1
-        //     },
-        //     576: {
-        //         items: 2
-        //     },
-        //     992: {
-        //         items: 3
-        //     }
-        // }
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            992: {
+                items: 2
+            },
+            1200: {
+                items: 3 // Adjust based on the min-width and available space
+            }
+        }
     })
 })
 
@@ -31,16 +34,16 @@ $(document).ready(function () {
         dots: true,
         autoplay: true,
         autoplayTimeout: 1500,
-        // responsive: {
-        //     0: {
-        //         items: 1
-        //     },
-        //     576: {
-        //         items: 1
-        //     },
-        //     992: {
-        //         items: 2
-        //     }
-        // }
+        responsive: {
+            0: {
+                items: 1
+            },
+            576: {
+                items: 1
+            },
+            992: {
+                items: 2
+            }
+        }
     })
 })
