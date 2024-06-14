@@ -43,7 +43,7 @@ const Homepage = () => {
                                             <b style={{ fontSize: '28px', marginLeft: '-65px' }}>“Your Idea, Our Innovation.”</b>
                                             <br />
                                             <div style={{ fontSize: '14px', marginLeft: '-65px', textAlign: 'start' }}>
-                                                ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.
+                                                ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to revolutionize the robotics industry by offering high quality products and services to various sectors, including industries, individuals with disabilities and students. Additionally, we provide web services such as domain registration, web design, and ready - to - use applications at an affordable cost.
                                             </div>
                                         </p>
                                         <figure className="mb-0 position-absolute" style={{ marginLeft: '-50px' }}>
