@@ -16,3 +16,21 @@
     background-image: url(../../public/assets/images/footer_background_shape.jpg);
     animation: movers 1s infinite alternate;
 } */
+
+.hideInLowScreen {
+    display: block;
+}
+
+.showInLowScreen {
+    display: none;
+}
+
+@media only screen and (max-width:700px) {
+    .hideInLowScreen {
+        display: none;
+    }
+
+    .showInLowScreen {
+        display: block;
+    }
+}

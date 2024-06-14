@@ -13,7 +13,7 @@ const Footer = () => {
                                         <figure>
                                             <img src={Logo} alt="RoboSlog" class="img-fluid" style={{ maxWidth: '100px', filter: 'invert(1)' }} />
                                             <br />
-                                            <strong className=' text-white ' style={{ textDecoration: 'none',marginTop:'50px' }}>
+                                            <strong className=' text-white ' style={{ textDecoration: 'none', marginTop: '50px' }}>
                                                 RoboSlog
                                             </strong>
                                         </figure>
@@ -29,7 +29,40 @@ const Footer = () => {
                                 </div>
                             </div>
                             <div class="col-lg-3 col-md-4 col-sm-3 col-xs-3 d-md-block d-sm-block">
-                                <div class="links_col">
+                                <div class="links_col showInLowScreen">
+                                    <h4>Useful Links</h4>
+                                    <span class="list-unstyled mb-0">
+                                        <button className='m-1 btn btn-outline-primary border-0' style={{ width: 'max-content' }} >
+                                            <span></span>
+                                            <a className='text-decoration-none text-white' style={{ width: 'fit-content', minWidth: '150px !important' }} href="/">Home</a>
+                                        </button>
+                                        <button className='m-1 btn btn-outline-primary border-0' style={{ width: 'max-content' }} >
+                                            <span></span>
+                                            <a className='text-decoration-none text-white' style={{ width: 'fit-content', minWidth: '150px !important' }} href="/about">About</a>
+                                        </button>
+                                        {/* <li>
+                                            <span></span>
+                                            <a href="/services">Services</a>
+                                        </li> */}
+                                        <button className='m-1 btn btn-outline-primary border-0' style={{ width: 'max-content' }} >
+                                            <span></span>
+                                            <a className='text-decoration-none text-white' style={{ width: 'fit-content', minWidth: '150px !important' }} href="/projects">Projects</a>
+                                        </button>
+                                        <button className='m-1 btn btn-outline-primary border-0' style={{ width: 'max-content' }} >
+                                            <span></span>
+                                            <a className='text-decoration-none text-white' style={{ width: 'fit-content', minWidth: '150px !important' }} href="/faqs">FAQs</a>
+                                        </button>
+                                        <button className='m-1 btn btn-outline-primary border-0' style={{ width: 'max-content' }} >
+                                            <span></span>
+                                            <a className='text-decoration-none text-white' style={{ width: 'fit-content', minWidth: '150px !important' }} href="/contact">Contact Us</a>
+                                        </button>
+                                        <button className='m-1 btn btn-outline-primary border-0' style={{ width: 'max-content' }} >
+                                            <span></span>
+                                            <a className='text-decoration-none text-white' style={{ width: 'fit-content', minWidth: '150px !important' }} href="#navbar">Careers</a>
+                                        </button>
+                                    </span>
+                                </div>
+                                <div class="links_col hideInLowScreen">
                                     <h4>Useful Links</h4>
                                     <ul class="list-unstyled mb-0">
                                         <li>
@@ -83,6 +116,31 @@ const Footer = () => {
                                             </a>
                                         </li>
                                     </ul>
+                                </div>
+                            </div>
+                            <div class="showInLowScreen">
+                                <div class="contact_col">
+                                    <h4>Contact Us</h4>
+                                    <div class="d-flex mb-0">
+                                        <ul class="list-unstyled mb-0">
+                                            <li>
+                                                <i class="fa-solid fa-phone"></i>
+                                                <a href="tel:+91 80051 83363" class="text-decoration-none">+91 6306854780</a>
+                                            </li>
+                                            <li class="contact_mail">
+                                                <i class="fa-sharp fa-solid fa-envelope"></i>
+                                                <a href="mailto:Info@immersiveai.com" class="text-decoration-none">roboslog@gmail.com</a>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-unstyled mb-0">
+                                            <li class="mb-0">
+                                                <a className='d-flex' href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35661.6942074034!2d144.91637077397664!3d-37.811636671563036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2s!4v1659530976839!5m2!1sen!2s" target='__blank' >
+                                                    <i class="fa-solid fa-location-dot location me-1"></i>
+                                                    <span class="text-size-16 ps-1">75/9, kishangarh, Aruna Asaf Ali Marg, Vasant Kunj, New Delhi, Delhi 110070</span>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                    </div>
                                 </div>
                             </div>
                             {/* <div class="col-lg-3 col-md-4 col-sm-6 col-12 text-sm-left text-center d-lg-block d-none">
