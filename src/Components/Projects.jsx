@@ -114,13 +114,13 @@ const Projects = () => {
                             projects.map((data, idx) => (
                                 <div class="col-lg-4 col-md-6 col-sm-6 col-12" key={idx}>
                                     <div style={{ maxHeight: '400px' }} className='bg-white rounded-5'>
-                                        <div className="portfolio_image">
+                                        <div className="portfolio_image" style={{ maxHeight: '350px' }}>
                                             <div className="portfolio_image_box">
                                                 <span dangerouslySetInnerHTML={{ __html: (data.name) }}></span>
                                             </div>
                                             {/* <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', width: '', background: '#fff8f821' }}> */}
-                                            <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center" style={{ height: '400px', width: '', background: '' }}>
-                                                <img src={data.imge} alt="" className="img-fluid" style={{ maxHeight: '400px', height: '100%' }} />
+                                            <figure className="mb-0 rounded-4 d-flex justify-content-center align-content-center pt-3" style={{ height: '400px', width: '', background: '' }}>
+                                                <img src={data.imge} alt="" className="img-fluid" style={{ maxHeight: '300px', width: '-webkit-fill-available', height: '100%' }} />
                                             </figure>
                                             <div className="portfolio_box">
                                                 <p className='text-white' dangerouslySetInnerHTML={{ __html: (data.title) }}></p>
@@ -143,7 +143,7 @@ const Projects = () => {
                         {
                             projects.map((data, idx) =>
                             (
-                                <div id={`${data.target}`} className="collapse px-4 rounded-2 me-5" aria-labelledby="headingSix" style={{ position: "fixed",background:"#040b2b", zIndex: '600', height: '80vh', maxWidth: '', top: '50px', left: '50px', right: "0px", overflow: 'auto', boxShadow: 'rgb(0 0 0 / 77%) 0px 0px 8000px 4000px' }} key={idx}>
+                                <div id={`${data.target}`} className="collapse px-4 rounded-2 me-5" aria-labelledby="headingSix" style={{ position: "fixed", background: "#040b2b", zIndex: '600', height: '80vh', maxWidth: '', top: '50px', left: '50px', right: "0px", overflow: 'auto', boxShadow: 'rgb(0 0 0 / 77%) 0px 0px 8000px 4000px' }} key={idx}>
                                     <div className='d-flex align-items-center justify-content-end'>
                                         <button className="btn btn-link collapsed text-decoration-none text-white fs-3 btn-danger my-2 " data-toggle="collapse" data-target={`#${data.target}`} aria-expanded="false" aria-controls={`${data.target}`}>Close<i className="fa-solid fa-x mx-3"></i></button>
                                     </div>

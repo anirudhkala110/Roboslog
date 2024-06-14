@@ -26,7 +26,7 @@ const About = () => {
                             <div class="col-lg-6 col-md-6 col-sm-12 col-12">
                                 <div class="banner-section-content">
                                     <h1 class="text-white" data-aos="fade-up">About Us</h1>
-                                    <p class="text-white" data-aos="fade-right" style={{ textAlign: 'left' }}>ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to revolutionize the robotics industry by offering high quality products and services to various sectors, including industries, individuals with disabilities and students. Additionally, we provide web services such as domain registration, web design, and ready - to - use applications at an affordable cost.</p>
+                                    <p class="text-white" data-aos="fade-right" style={{ textAlign: 'left' }}>ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to create a revolution in the field of Robotics industry by helping industries, Disabled and students and providing them high-quality products and services. Also providing Web Services like Domain, Web designing & Ready to use App at an affordable cost.</p>
                                     <div class="btn_wrapper" data-aos="fade-up">
                                         <span> Home </span><i class="fa-solid fa-angles-right" aria-hidden="true"></i><span class="sub_span">About</span>
                                     </div>
