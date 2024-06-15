@@ -70,9 +70,9 @@ const Homepage = () => {
                                     </div>
                                     <div className="showInLowScreen" >
                                         <p className="text-white mb-0" data-aos="fade-right">
-                                            <center style={{ fontSize: '28px', marginLeft: '0px', width: '520px', border: '' }}>“Your Idea, Our Innovation.”</center>
+                                            <center style={{ fontSize: '28px', marginLeft: '-90px', width: '520px', border: '' }}>“Your Idea, Our Innovation.”</center>
                                             <br />
-                                            <div className='roboHomeDetail' style={{ marginTop: '10px', minWidth: '400px' }}>
+                                            <div className='roboHomeDetail' style={{ marginTop: '10px', minWidth: '400px',marginLeft:"-75px" }}>
                                                 ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services.
                                             </div>
                                         </p>
