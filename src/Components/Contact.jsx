@@ -67,7 +67,8 @@ const Contact = () => {
                                     <div class="contact_info_box hover-effect">
                                         <figure class="mb-0">
                                             <img src="./assets/images/location.png" alt="" class="img-fluid hover-effect" />
-                                        </figure><a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1056.504162906141!2d77.16288404191312!3d28.519832021652434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1e4317e5aab%3A0x5d1c04d23170494d!2sRoboSlog!5e0!3m2!1sen!2sin!4v1718259376487!5m2!1sen!2sin" target='__blank'>
+                                        </figure>
+                                        <a className='text-decoration-none' href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1056.504162906141!2d77.16288404191312!3d28.519832021652434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1e4317e5aab%3A0x5d1c04d23170494d!2sRoboSlog!5e0!3m2!1sen!2sin!4v1718259376487!5m2!1sen!2sin" target='__blank'>
                                             <div class="contact_info_box_content_wrapper">
                                                 <h5>Location:</h5>
                                                 <p class="mb-0">75/9, kishangarh, Aruna Asaf Ali Marg, Vasant Kunj, New Delhi, Delhi 110070</p>
