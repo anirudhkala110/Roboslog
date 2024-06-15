@@ -13,8 +13,8 @@ const Footer = () => {
                                         <figure>
                                             <img src={Logo} alt="RoboSlog" class="img-fluid" style={{ maxWidth: '100px', filter: 'invert(1)' }} />
                                             <br />
-                                            <strong className=' text-white ' style={{ textDecoration: 'none', marginTop: '50px' }}>
-                                                RoboSlog
+                                            <strong className=' text-white ' style={{ textDecoration: 'none', marginTop: '50px', fontSize: '' }}>
+                                                ROBOSLOG Pvt. Ltd.
                                             </strong>
                                         </figure>
                                     </a>

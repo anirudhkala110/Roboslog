@@ -66,7 +66,7 @@ const Homepage = () => {
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="banner_image position-relative">
                                     <figure className="banner_main_image mb-0 left_right_shape d-flex align-items-center justify-content-center">
-                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '', maxWidth: "350px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
+                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '', maxWidth: "300px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
                                     <figure className="banner_image_top_shape left_right_shape  mb-0 position-absolute">
                                         <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid hideInLowScreen" style={{ maxWidth: '',marginLeft:'100px',marginTop:'45px',border:'',transform:'rotateZ(25deg)' }} /></figure>
                                     <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">
