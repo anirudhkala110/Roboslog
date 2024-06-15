@@ -18,9 +18,9 @@ const Navbar = () => {
                         <div className="collapse navbar-collapse justify-content-end" style={{ minWidth: '180px', position: 'relative', zIndex: "1000" }} id="navbarSupportedContent">
                             <ul className="navbar-nav ps-0" style={{ listStyle: 'none' }}>
                                 <li className="nav-item">
-                                    <NavLink className="nav-link" to="/">
+                                    <a className="nav-link" href="/">
                                         Home
-                                    </NavLink>
+                                    </a>
                                 </li>
                                 <li className="nav-item">
                                     <NavLink className="nav-link" to="/about">About</NavLink>

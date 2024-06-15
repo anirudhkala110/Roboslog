@@ -73,7 +73,7 @@ const Homepage = () => {
                                             <center style={{ fontSize: '28px', marginLeft: '-90px', width: '520px', border: '' }}>“Your Idea, Our Innovation.”</center>
                                             <br />
                                             <div className='roboHomeDetail' style={{ marginTop: '10px', minWidth: '400px',marginLeft:"-75px" }}>
-                                                ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services.
+                                                ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services...                            <a className="text-decoration-none  hover-effect readmore_btn" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
                                             </div>
                                         </p>
                                         <figure className="mb-0 position-absolute hideInLowScreen" style={{ marginLeft: '-50px' }}>
@@ -84,7 +84,7 @@ const Homepage = () => {
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="banner_image position-relative">
                                     <figure className="banner_main_image mb-0 left_right_shape d-flex align-items-center justify-content-center">
-                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '100%', maxWidth: "450px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
+                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '', maxWidth: "450px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
                                     <figure className="banner_image_top_shape mb-0 position-absolute">
                                         <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid" style={{ maxWidth: '' }} /></figure>
                                     <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">

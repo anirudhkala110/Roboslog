@@ -169,7 +169,7 @@ const Footer = () => {
                 </div>
                 <div class="bottom-portion">
                     <div class="copyright col-xl-12">
-                        <p>Copyright © 2019 RoboSlog All rights reserved.</p>
+                        <p>Copyright © 2024 RoboSlog All rights reserved.</p>
                     </div>
                 </div>
             </section>
