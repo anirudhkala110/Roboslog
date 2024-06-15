@@ -134,7 +134,7 @@ const Footer = () => {
                                         </ul>
                                         <ul class="list-unstyled mb-0">
                                             <li class="mb-0">
-                                                <a className='d-flex' href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d35661.6942074034!2d144.91637077397664!3d-37.811636671563036!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad65d4c2b349649%3A0xb6899234e561db11!2sEnvato!5e0!3m2!1sen!2s!4v1659530976839!5m2!1sen!2s" target='__blank' >
+                                                <a className='d-flex' href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1056.504162906141!2d77.16288404191312!3d28.519832021652434!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce1e4317e5aab%3A0x5d1c04d23170494d!2sRoboSlog!5e0!3m2!1sen!2sin!4v1718259376487!5m2!1sen!2sin" target='__blank' >
                                                     <i class="fa-solid fa-location-dot location me-1"></i>
                                                     <span class="text-size-16 ps-1">75/9, kishangarh, Aruna Asaf Ali Marg, Vasant Kunj, New Delhi, Delhi 110070</span>
                                                 </a>
