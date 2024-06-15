@@ -84,7 +84,7 @@ const Homepage = () => {
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="banner_image position-relative">
                                     <figure className="banner_main_image mb-0 left_right_shape d-flex align-items-center justify-content-center">
-                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '100%', maxWidth: "450px", marginBottom: '0px', marginLeft: '100px', marginTop: "4vh" }} /></figure>
+                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '100%', maxWidth: "450px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
                                     <figure className="banner_image_top_shape mb-0 position-absolute">
                                         <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid" style={{ maxWidth: '' }} /></figure>
                                     <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">
@@ -95,7 +95,7 @@ const Homepage = () => {
                         <figure className="banner_left_image mb-0 position-absolute left_right_shape">
                             <img src={leftBanner} alt="" className="img-fluid" style={{ maxWidth: '320px' }} /></figure>
                         <a href="#footer_section" className="top-btn">
-                            <figure className=" position-absolute homerMe showInLowScreen text-white" style={{ marginBottom: '-125px' }}>
+                            <figure className=" position-absolute homerMe showInLowScreen text-white" style={{ marginBottom: '-200px' }}>
                                 <button className='btn btn-outline-primary'> Bottom <b className='bi bi-arrow-down' ></b></button>
                             </figure>
                         </a>
@@ -104,7 +104,7 @@ const Homepage = () => {
                                 <button className='btn btn-outline-primary'> Bottom <b className='bi bi-arrow-down' ></b></button>
                             </figure>
                         </a>
-                        <div className="btn_wrapper showInLowScreen" data-aos="fade-up">
+                        <div className="btn_wrapper showInLowScreen" data-aos="fade-up" style={{marginTop:'100px'}}>
                             <a className="text-decoration-none default-btn btn-size-18 m-3 hover-effect readmore_btn" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
                             <a className="text-decoration-none default-btn-two btn-size-18 m-3 hover-effect" href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
                         </div>
