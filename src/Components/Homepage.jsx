@@ -23,7 +23,6 @@ const Homepage = () => {
     })
     return (
         <>
-            
             <div className="banner-section-outer position-relative" style={{ minHeight: '100vh' }}>
 
                 {/* <!-- BANNER SECTION --> */}
@@ -37,13 +36,13 @@ const Homepage = () => {
                                 </div>
                             </div>
                             <div className="col-lg-5 col-md-12 col-sm-12">
-                                <div className="banner-section-content hideInLowScreen">
+                                <div className="banner-section-content">
                                     <h2 data-aos="fade-up text-white" style={{ fontSize: '60px' }}><b className='text-white'>RoboSlog</b></h2>
                                     <div className="banner_content_wrapper position-relative">
                                         <p className="text-white mb-0" data-aos="fade-right">
-                                            <b style={{ fontSize: '28px', marginLeft: '-65px' }}>“Your Idea, Our Innovation.”</b>
+                                            <b style={{ fontSize: '28px', marginLeft: '-120px' }}>“Your Idea, Our Innovation.”</b>
                                             <br />
-                                            <div className='roboHomeDetail'>
+                                            <div className='' style={{ textAlign: 'left', fontSize: '14px',marginLeft:'-30px' }}>
                                                 ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to revolutionize the robotics industry by offering high quality products and services to various sectors, including industries, individuals with disabilities and students. Additionally, we provide web services such as domain registration, web design, and ready - to - use applications at an affordable cost.
                                             </div>
                                         </p>
@@ -51,40 +50,15 @@ const Homepage = () => {
                                             <img src="./assets/images/banner_white_line.png" alt="" className="img-fluid" /></figure>
                                     </div>
                                     <div className="btn_wrapper" data-aos="fade-up">
-                                        <a className="text-decoration-none default-btn btn-size-18 m-3 hover-effect readmore_btn" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
-                                        <a className="text-decoration-none default-btn-two btn-size-18 m-3 hover-effect" href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
-                                    </div>
-                                </div>
-                                <div className="showInLowScreen" style={{ marginTop: '', padding: '0px' }}>
-                                    <h2 data-aos="fade-up text-white" style={{ fontSize: '60px' }}><b className='text-white'>RoboSlog</b></h2>
-                                    <div className="hideInLowScreen">
-                                        <p className="text-white mb-0" data-aos="fade-right">
-                                            <b style={{ fontSize: '28px', marginLeft: '-65px' }}>“Your Idea, Our Innovation.”</b>
-                                            <br />
-                                            <div className='roboHomeDetail'>
-                                                ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to revolutionize the robotics industry by offering high quality products and services to various sectors, including industries, individuals with disabilities and students. Additionally, we provide web services such as domain registration, web design, and ready - to - use applications at an affordable cost.
-                                            </div>
-                                        </p>
-                                        <figure className="mb-0 position-absolute hideInLowScreen" style={{ marginLeft: '-50px' }}>
-                                            <img src="./assets/images/banner_white_line.png" alt="" className="img-fluid" /></figure>
-                                    </div>
-                                    <div className="showInLowScreen" >
-                                        <p className="text-white mb-0" data-aos="fade-right">
-                                            <center style={{ fontSize: '28px', marginLeft: '-90px', width: '520px', border: '' }}>“Your Idea, Our Innovation.”</center>
-                                            <br />
-                                            <div className='roboHomeDetail' style={{ marginTop: '10px', minWidth: '400px',marginLeft:"-75px" }}>
-                                                ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services...                            <a className="text-decoration-none  hover-effect readmore_btn" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
-                                            </div>
-                                        </p>
-                                        <figure className="mb-0 position-absolute hideInLowScreen" style={{ marginLeft: '-50px' }}>
-                                            <img src="./assets/images/banner_white_line.png" alt="" className="img-fluid" /></figure>
+                                        <a className="text-decoration-none default-btn btn-size-18 hover-effect readmore_btn my-1" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                        <a className="text-decoration-none default-btn-two btn-size-18 hover-effect my-1" href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
                                     </div>
                                 </div>
                             </div>
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="banner_image position-relative">
                                     <figure className="banner_main_image mb-0 left_right_shape d-flex align-items-center justify-content-center">
-                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '', maxWidth: "450px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
+                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '100%', maxWidth: "450px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
                                     <figure className="banner_image_top_shape mb-0 position-absolute">
                                         <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid" style={{ maxWidth: '' }} /></figure>
                                     <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">
@@ -95,19 +69,10 @@ const Homepage = () => {
                         <figure className="banner_left_image mb-0 position-absolute left_right_shape">
                             <img src={leftBanner} alt="" className="img-fluid" style={{ maxWidth: '320px' }} /></figure>
                         <a href="#footer_section" className="top-btn">
-                            <figure className=" position-absolute homerMe showInLowScreen text-white" style={{ marginBottom: '-200px' }}>
+                            <figure className=" position-absolute homerMe text-white" style={{ marginTop: '-75px' }}>
                                 <button className='btn btn-outline-primary'> Bottom <b className='bi bi-arrow-down' ></b></button>
                             </figure>
                         </a>
-                        <a href="#footer_section" className="top-btn">
-                            <figure className=" position-absolute homerMe hideInLowScreen text-white" style={{ maeginTop: '-75px' }}>
-                                <button className='btn btn-outline-primary'> Bottom <b className='bi bi-arrow-down' ></b></button>
-                            </figure>
-                        </a>
-                        <div className="btn_wrapper showInLowScreen" data-aos="fade-up" style={{marginTop:'100px'}}>
-                            <a className="text-decoration-none default-btn btn-size-18 m-3 hover-effect readmore_btn" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
-                            <a className="text-decoration-none default-btn-two btn-size-18 m-3 hover-effect" href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
-                        </div>
                     </div>
                 </section>
                 <figure className="banner_top_shape mb-0 position-absolute top_bottom_shape">
