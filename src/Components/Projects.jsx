@@ -71,6 +71,7 @@ const Projects = () => {
             collapseRefs.current.forEach((ref, idx) => {
                 if (ref && !ref.contains(event.target)) {
                     document.getElementById(projects[idx].target).classList.remove('show');
+                    document.body.classList.remove('no-scroll');
                 }
             });
         };
@@ -82,7 +83,7 @@ const Projects = () => {
     }, []);
 
     return (
-        <div>
+        <div className=''>
             <div className="sub-banner-section-outer services-banner-section-outer position-relative">
                 <section className="banner-section position-relative" style={{ padding: '50px 0px' }}>
                     <div className="container">
@@ -112,7 +113,7 @@ const Projects = () => {
                 <figure className="banner_top_shape mb-0 position-absolute top_bottom_shape">
                     <img src="./assets/images/sub_banner_top_shape.png" alt="" className="img-fluid" />
                 </figure>
-                <figure className="banner_background_shape mb-0 position-absolute left_right_shape">
+                <figure className="banner_background_shape d-block mb-0 left_right_shape">
                     <img src="./assets/images/sub_banner_background_shape.png" alt="" />
                 </figure>
             </div>
@@ -153,7 +154,7 @@ const Projects = () => {
                     <div>
                         {
                             projects.map((data, idx) => (
-                                <div id={`${data.target}`} className="collapse px-4 rounded-2 me-5" aria-labelledby="headingSix" ref={el => collapseRefs.current[idx] = el} style={{ position: "fixed", background: "#040b2b", zIndex: '600', maxHeight: '80vh', maxWidth: '', top: '50px', left: '50px', right: "0px", overflow: 'auto', boxShadow: 'rgb(0 0 0 / 77%) 0px 0px 8000px 4000px' }} key={idx}>
+                                <div id={`${data.target}`} className="collapse px-4 rounded-2 me-5" aria-labelledby="headingSix" ref={el => collapseRefs.current[idx] = el} style={{ position: "fixed", background: "#040b2b", zIndex: '600', maxHeight: '80vh', maxWidth: '', top: '50px', left: '50px', right: "0px", overflow: 'auto', boxShadow: 'rgb(0 0 0 / 93%) 0px 0px 8000px 4000px' }} key={idx}>
                                     <div className='d-flex align-items-center justify-content-end'>
                                         <button className="btn btn-link collapsed text-decoration-none text-white fs-3 btn-danger my-2 " data-toggle="collapse" data-target={`#${data.target}`} aria-expanded="false" aria-controls={`${data.target}`}>Close<i className="fa-solid fa-x mx-3"></i></button>
                                     </div>

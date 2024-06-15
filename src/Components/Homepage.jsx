@@ -50,12 +50,12 @@ const Homepage = () => {
                                                 ROBOSLOG™ is one of the distinguished leading suppliers for all kinds of Robotics and Automation Services. We aim to revolutionize the robotics industry by offering high quality products and services to various sectors, including industries, individuals with disabilities and students. Additionally, we provide web services such as domain registration, web design, and ready - to - use applications at an affordable cost.
                                             </div>
                                         </p>
-                                        <figure className="mb-0 position-absolute" style={{ marginLeft: '-50px' }}>
+                                        <figure className="mb-0 position-absolute hideInLowScreen" style={{ marginLeft: '-50px' }}>
                                             <img src="./assets/images/banner_white_line.png" alt="" className="img-fluid" /></figure>
                                     </div>
                                     <div className="btn_wrapper showInLowScreen" data-aos="fade-up">
-                                        <a className="text-decoration-none default-btn btn-size-18 d-flex hover-effect readmore_btn my-1" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
-                                        <a className="text-decoration-none default-btn-two btn-size-18 d-flex hover-effect my-1" href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
+                                        <a className="text-decoration-none default-btn btn-size-18 d-flex  align-items-center hover-effect readmore_btn my-1" style={{maxWidth:'150px',marginLeft:'-80px'}} href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
+                                        <a className="text-decoration-none default-btn-two btn-size-18 d-flex align-items-center  hover-effect my-1" style={{maxWidth:'150px',marginLeft:'-80px'}} href="/contact">Contact Us<i className="fa-solid fa-angle-right"></i></a>
                                     </div>
                                     <div className="btn_wrapper hideInLowScreen" data-aos="fade-up">
                                         <a className="text-decoration-none default-btn btn-size-18 hover-effect readmore_btn my-1" href="/about">Read More<i className="fa-solid fa-angle-right"></i></a>
@@ -66,9 +66,9 @@ const Homepage = () => {
                             <div className="col-lg-6 col-md-12 col-sm-12">
                                 <div className="banner_image position-relative">
                                     <figure className="banner_main_image mb-0 left_right_shape d-flex align-items-center justify-content-center">
-                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '', maxWidth: "450px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
-                                    <figure className="banner_image_top_shape mb-0 position-absolute">
-                                        <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid hideInLowScreen" style={{ maxWidth: '',marginLeft:'75px',marginTop:'14px',border:'',transform:'rotateZ(25deg)' }} /></figure>
+                                        <img src={mainImg} alt="" style={{ maxHeight: '300px', width: '', maxWidth: "350px", marginBottom: '0px', marginLeft: '100px', marginTop: "10vh" }} /></figure>
+                                    <figure className="banner_image_top_shape left_right_shape  mb-0 position-absolute">
+                                        <img src="./assets/images/banner_image_top_shape.png" alt="" className="img-fluid hideInLowScreen" style={{ maxWidth: '',marginLeft:'100px',marginTop:'45px',border:'',transform:'rotateZ(25deg)' }} /></figure>
                                     <figure className="banner_image_bottom_shape position-absolute top_bottom_shape">
                                         <img src="./assets/images/banner_image_bottom_shape.png" alt="" className="img-fluid" /></figure>
                                 </div>
